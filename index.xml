@@ -9,6 +9,17 @@
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
     <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+    <item>
       <title>Menu</title>
       <link>/posts/menu/</link>
       <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
@@ -244,15 +255,6 @@ This article shows how to configure them and even customize your own comment wid
     </item>
     
     <item>
-      <title>Placeholder Text</title>
-      <link>/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Math Typesetting</title>
       <link>/posts/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -268,17 +270,6 @@ This article shows how to configure them and even customize your own comment wid
       
       <guid>/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0.Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
     </item>
     
     <item>
