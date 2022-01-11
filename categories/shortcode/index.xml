@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcode on RealWillWright</title>
-    <link>/categories/shortcode/</link>
+    <link>https://realwillwright.github.io/categories/shortcode/</link>
     <description>Recent content in Shortcode on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/shortcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alert Shortcode</title>
-      <link>/posts/shortcodes/alert/</link>
+      <link>https://realwillwright.github.io/posts/shortcodes/alert/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/shortcodes/alert/</guid>
+      <guid>https://realwillwright.github.io/posts/shortcodes/alert/</guid>
       <description>&lt;p&gt;This article shows how to use the &lt;code&gt;alert&lt;/code&gt; shortcode.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Media Shortcodes</title>
-      <link>/posts/shortcodes/media/</link>
+      <link>https://realwillwright.github.io/posts/shortcodes/media/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/shortcodes/media/</guid>
+      <guid>https://realwillwright.github.io/posts/shortcodes/media/</guid>
       <description>&lt;p&gt;A detailed description of media shortcodes, such as Bilibili, Tencent, Youku, iQiyi and Netease Music.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Online IDE Shortcodes</title>
-      <link>/posts/shortcodes/online-ide/</link>
+      <link>https://realwillwright.github.io/posts/shortcodes/online-ide/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/posts/shortcodes/online-ide/</guid>
+      <guid>https://realwillwright.github.io/posts/shortcodes/online-ide/</guid>
       <description>&lt;p&gt;A detailed description of online IDE shortcodes, such as JSFiddle, CodePen, JSRun.&lt;/p&gt;</description>
     </item>
     

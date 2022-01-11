@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image Viewer on RealWillWright</title>
-    <link>/categories/image-viewer/</link>
+    <link>https://realwillwright.github.io/categories/image-viewer/</link>
     <description>Recent content in Image Viewer on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 03 Dec 2021 20:46:50 +0800</lastBuildDate><atom:link href="/categories/image-viewer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 20:46:50 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/image-viewer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Viewer</title>
-      <link>/posts/image-viewer/</link>
+      <link>https://realwillwright.github.io/posts/image-viewer/</link>
       <pubDate>Fri, 03 Dec 2021 20:46:50 +0800</pubDate>
       
-      <guid>/posts/image-viewer/</guid>
+      <guid>https://realwillwright.github.io/posts/image-viewer/</guid>
       <description>&lt;p&gt;Image viewer is an image gallery, it will be shown up when you click a non-linkable image.&lt;/p&gt;
 &lt;p&gt;It also provides many tools, such as zoom in, zoom out and rotate.&lt;/p&gt;</description>
     </item>
