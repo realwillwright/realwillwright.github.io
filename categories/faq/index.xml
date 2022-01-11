@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FAQ on RealWillWright</title>
-    <link>https://realwillwright.github.io/categories/faq/</link>
+    <link>/categories/faq/</link>
     <description>Recent content in FAQ on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="/categories/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ Page</title>
-      <link>https://realwillwright.github.io/posts/faq/</link>
+      <link>/posts/faq/</link>
       <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/posts/faq/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;https://realwillwright.github.io/faq/&#34;&gt;FAQ&lt;/a&gt;
+      <guid>/posts/faq/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;/faq/&#34;&gt;FAQ&lt;/a&gt;
  page is a collection of frequently asked questions.&lt;/p&gt;</description>
     </item>
     

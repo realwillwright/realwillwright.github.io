@@ -2,144 +2,144 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RealWillWright</title>
-    <link>https://realwillwright.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menu</title>
-      <link>https://realwillwright.github.io/categories/menu/</link>
+      <link>/categories/menu/</link>
       <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/menu/</guid>
+      <guid>/categories/menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://realwillwright.github.io/categories/faq/</link>
+      <link>/categories/faq/</link>
       <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/faq/</guid>
+      <guid>/categories/faq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image Viewer</title>
-      <link>https://realwillwright.github.io/categories/image-viewer/</link>
+      <link>/categories/image-viewer/</link>
       <pubDate>Fri, 03 Dec 2021 20:46:50 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/image-viewer/</guid>
+      <guid>/categories/image-viewer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PWA</title>
-      <link>https://realwillwright.github.io/categories/pwa/</link>
+      <link>/categories/pwa/</link>
       <pubDate>Fri, 03 Dec 2021 19:39:01 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/pwa/</guid>
+      <guid>/categories/pwa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://realwillwright.github.io/categories/archive/</link>
+      <link>/categories/archive/</link>
       <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/archive/</guid>
+      <guid>/categories/archive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://realwillwright.github.io/categories/search/</link>
+      <link>/categories/search/</link>
       <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/search/</guid>
+      <guid>/categories/search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Widget</title>
-      <link>https://realwillwright.github.io/categories/widget/</link>
+      <link>/categories/widget/</link>
       <pubDate>Fri, 03 Dec 2021 11:10:19 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/widget/</guid>
+      <guid>/categories/widget/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Links</title>
-      <link>https://realwillwright.github.io/categories/social-links/</link>
+      <link>/categories/social-links/</link>
       <pubDate>Thu, 02 Dec 2021 16:27:45 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/social-links/</guid>
+      <guid>/categories/social-links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact Form</title>
-      <link>https://realwillwright.github.io/categories/contact-form/</link>
+      <link>/categories/contact-form/</link>
       <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/contact-form/</guid>
+      <guid>/categories/contact-form/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assets</title>
-      <link>https://realwillwright.github.io/categories/assets/</link>
+      <link>/categories/assets/</link>
       <pubDate>Sun, 28 Nov 2021 16:00:49 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/assets/</guid>
+      <guid>/categories/assets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comments</title>
-      <link>https://realwillwright.github.io/categories/comments/</link>
+      <link>/categories/comments/</link>
       <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/comments/</guid>
+      <guid>/categories/comments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hook</title>
-      <link>https://realwillwright.github.io/categories/hook/</link>
+      <link>/categories/hook/</link>
       <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/hook/</guid>
+      <guid>/categories/hook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configuration</title>
-      <link>https://realwillwright.github.io/categories/configuration/</link>
+      <link>/categories/configuration/</link>
       <pubDate>Sat, 27 Nov 2021 19:53:24 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/configuration/</guid>
+      <guid>/categories/configuration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://realwillwright.github.io/categories/markdown/</link>
+      <link>/categories/markdown/</link>
       <pubDate>Wed, 01 Sep 2021 11:36:50 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/markdown/</guid>
+      <guid>/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortcode</title>
-      <link>https://realwillwright.github.io/categories/shortcode/</link>
+      <link>/categories/shortcode/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://realwillwright.github.io/categories/shortcode/</guid>
+      <guid>/categories/shortcode/</guid>
       <description></description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Assets on RealWillWright</title>
-    <link>https://realwillwright.github.io/categories/assets/</link>
+    <link>/categories/assets/</link>
     <description>Recent content in Assets on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Sun, 28 Nov 2021 16:00:49 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/assets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Nov 2021 16:00:49 +0800</lastBuildDate><atom:link href="/categories/assets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom Assets</title>
-      <link>https://realwillwright.github.io/posts/custom-assets/</link>
+      <link>/posts/custom-assets/</link>
       <pubDate>Sun, 28 Nov 2021 16:00:49 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/posts/custom-assets/</guid>
+      <guid>/posts/custom-assets/</guid>
       <description>&lt;p&gt;As a customizable theme, it provides the ability to customize assets, whether it is customizing CSS and JS or introducing third-party CSS and JS.&lt;/p&gt;</description>
     </item>
     

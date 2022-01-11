@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alert on RealWillWright</title>
-    <link>https://realwillwright.github.io/tags/alert/</link>
+    <link>/tags/alert/</link>
     <description>Recent content in Alert on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://realwillwright.github.io/tags/alert/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/alert/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alert Shortcode</title>
-      <link>https://realwillwright.github.io/posts/shortcodes/alert/</link>
+      <link>/posts/shortcodes/alert/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://realwillwright.github.io/posts/shortcodes/alert/</guid>
+      <guid>/posts/shortcodes/alert/</guid>
       <description>&lt;p&gt;This article shows how to use the &lt;code&gt;alert&lt;/code&gt; shortcode.&lt;/p&gt;</description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hook on RealWillWright</title>
-    <link>https://realwillwright.github.io/categories/hook/</link>
+    <link>/categories/hook/</link>
     <description>Recent content in Hook on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 19:54:29 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/hook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 19:54:29 +0800</lastBuildDate><atom:link href="/categories/hook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hooks</title>
-      <link>https://realwillwright.github.io/posts/hooks/</link>
+      <link>/posts/hooks/</link>
       <pubDate>Sat, 27 Nov 2021 19:54:29 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/posts/hooks/</guid>
+      <guid>/posts/hooks/</guid>
       <description>&lt;p&gt;As a flexible theme, it should have the ability to customize code and integrate third-party services. Therefore, we brought a feature called hook.&lt;/p&gt;
 &lt;p&gt;In this article, we will introduce all hooks and provide some use cases.&lt;/p&gt;</description>
     </item>

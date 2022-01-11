@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on RealWillWright</title>
-    <link>https://realwillwright.github.io/categories/search/</link>
+    <link>/categories/search/</link>
     <description>Recent content in Search on RealWillWright</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Fri, 03 Dec 2021 11:16:51 +0800</lastBuildDate><atom:link href="https://realwillwright.github.io/categories/search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 11:16:51 +0800</lastBuildDate><atom:link href="/categories/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Search Page</title>
-      <link>https://realwillwright.github.io/posts/search/</link>
+      <link>/posts/search/</link>
       <pubDate>Fri, 03 Dec 2021 11:16:51 +0800</pubDate>
       
-      <guid>https://realwillwright.github.io/posts/search/</guid>
+      <guid>/posts/search/</guid>
       <description>&lt;p&gt;It may be difficult for readers to retrieve an article in the case if there are many articles in your site, therefore, we added the search feature.&lt;/p&gt;</description>
     </item>
     
