@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Twitter on RealWillWright</title>
+    <title>Twitter on Will Wright Blog</title>
     <link>/tags/twitter/</link>
-    <description>Recent content in Twitter on RealWillWright</description>
+    <description>Recent content in Twitter on Will Wright Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
