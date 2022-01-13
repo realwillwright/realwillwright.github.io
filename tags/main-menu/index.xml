@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 16 Dec 2021 17:25:20 +0800</lastBuildDate><atom:link href="/tags/main-menu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Menu</title>
-      <link>/posts/menu/</link>
+      <link>/docs/menu/</link>
       <pubDate>Thu, 16 Dec 2021 17:25:20 +0800</pubDate>
       
-      <guid>/posts/menu/</guid>
+      <guid>/docs/menu/</guid>
       <description>&lt;p&gt;We predefined two types of menus: &lt;code&gt;main&lt;/code&gt; and &lt;code&gt;footer&lt;/code&gt;, represents the top app bar menus and the footer menus, respectively.
 This article will briefly introduce how to use the menus.&lt;/p&gt;</description>
     </item>

@@ -10,11 +10,11 @@
     <lastBuildDate>Tue, 30 Nov 2021 23:56:00 +0800</lastBuildDate><atom:link href="/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact Form</title>
-      <link>/posts/contact-form/</link>
+      <link>/docs/layouts/contact-form/</link>
       <pubDate>Tue, 30 Nov 2021 23:56:00 +0800</pubDate>
       
-      <guid>/posts/contact-form/</guid>
-      <description>&lt;p&gt;We can put our email address on &lt;a href=&#34;/posts/widgets/social-links/&#34;&gt;social links&lt;/a&gt;
+      <guid>/docs/layouts/contact-form/</guid>
+      <description>&lt;p&gt;We can put our email address on &lt;a href=&#34;/docs/widgets/social-links/&#34;&gt;social links&lt;/a&gt;
  so that readers can contact us. Unfortunately, emails will be more or less treated as spam and even filtered.
 Therefore, we bring a feature called contact form.&lt;/p&gt;</description>
     </item>

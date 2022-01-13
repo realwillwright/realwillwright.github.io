@@ -9,11 +9,11 @@
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
     <lastBuildDate>Tue, 07 Dec 2021 21:46:43 +0800</lastBuildDate><atom:link href="/categories/faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FAQ Page</title>
-      <link>/posts/faq/</link>
+      <title>FAQ Layout</title>
+      <link>/docs/layouts/faq/</link>
       <pubDate>Tue, 07 Dec 2021 21:46:43 +0800</pubDate>
       
-      <guid>/posts/faq/</guid>
+      <guid>/docs/layouts/faq/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;/faq/&#34;&gt;FAQ&lt;/a&gt;
  page is a collection of frequently asked questions.&lt;/p&gt;</description>
     </item>
