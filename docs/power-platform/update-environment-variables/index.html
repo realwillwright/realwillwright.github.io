@@ -3,23 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Series - Will Wright Blog</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+    <title>Update Environment Variables - Will Wright Blog</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
 <link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="/images/icons/favicon.ico">
 <link rel="manifest" href="/manifest.json">
-<meta name="keywords" content="Home Assistant, Home Automation, Power Platform, Power Apps, Canvas Apps, Power Automate, Power BI, Microsoft, Office365, M365, O365" />
-<meta name="description" content="An M365 and home automation blog" /><meta itemprop="name" content="Series">
-<meta itemprop="description" content="An M365 and home automation blog"><meta property="og:title" content="Series" />
-<meta property="og:description" content="An M365 and home automation blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/series/" />
+<meta name="keywords" content="" />
+<meta name="description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated" /><meta itemprop="name" content="Update Environment Variables">
+<meta itemprop="description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated"><meta itemprop="datePublished" content="2022-01-17T12:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-01-17T12:00:00+00:00" />
+<meta itemprop="wordCount" content="584">
+<meta itemprop="keywords" content="Environment Variables,Flow," /><meta property="og:title" content="Update Environment Variables" />
+<meta property="og:description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/power-platform/update-environment-variables/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-01-17T12:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-17T12:00:00+00:00" />
+
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Series"/>
-<meta name="twitter:description" content="An M365 and home automation blog"/>
+<meta name="twitter:title" content="Update Environment Variables"/>
+<meta name="twitter:description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated"/>
 <meta name="twitter:site" content="@realwillwright"/>
-<meta name="robots" content="index, follow" /><link rel="alternate" type="application/rss+xml" href="/series/index.xml" title="Will Wright Blog" /><link rel="stylesheet" href="/css/main.min.54be782c44a498e3e683c8d9fa311cd15079697ddfeabc6f0fd1416fb835815a.css" integrity="sha256-VL54LESkmOPmg8jZ&#43;jEc0VB5aX3f6rxvD9FBb7g1gVo=" crossorigin="anonymous"><link rel="stylesheet" href="/css/viewer.min.3d228794bcedbbfa0412beb8fbc1ec6973202945e42af7004f742a4d7bd620ab.css" integrity="sha256-PSKHlLztu/oEEr64&#43;8HsaXMgKUXkKvcAT3QqTXvWIKs=" crossorigin="anonymous"></head>
+<meta name="robots" content="index, follow" /><link rel="stylesheet" href="/css/main.min.54be782c44a498e3e683c8d9fa311cd15079697ddfeabc6f0fd1416fb835815a.css" integrity="sha256-VL54LESkmOPmg8jZ&#43;jEc0VB5aX3f6rxvD9FBb7g1gVo=" crossorigin="anonymous"><link rel="stylesheet" href="/css/viewer.min.3d228794bcedbbfa0412beb8fbc1ec6973202945e42af7004f742a4d7bd620ab.css" integrity="sha256-PSKHlLztu/oEEr64&#43;8HsaXMgKUXkKvcAT3QqTXvWIKs=" crossorigin="anonymous"></head>
   <body><script>const items=['mode','palette'];items.forEach(function(a){const b=localStorage.getItem('hbs-'+a);b&&document.body.parentElement.setAttribute('data-'+a,b)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
   <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,11 +45,11 @@
   </div>
   <div class="offcanvas-body">
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
-      target="_blank" href="https://twitter.com/intent/tweet?title=Series&url=%2fseries%2f">
+      target="_blank" href="https://twitter.com/intent/tweet?title=Update%20Environment%20Variables&url=%2fdocs%2fpower-platform%2fupdate-environment-variables%2f">
       <i class="fab fa-fw fa-twitter"></i> Twitter
     </a>
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
-      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fseries%2f">
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2fpower-platform%2fupdate-environment-variables%2f">
       <i class="fab fa-fw fa-facebook-f"></i> Facebook
     </a>
   </div>
@@ -146,7 +152,7 @@
   </div>
 </form>
       <ul class="navbar-nav ms-auto"><li class="nav-item">
-          <a class="nav-link active" href="/series/">
+          <a class="nav-link" href="/series/">
             <i class="fas fa-fw fa-columns"></i>Series
           </a>
         </li><li class="nav-item">
@@ -196,22 +202,270 @@
 <div class="col-lg-8">
   <div class="container"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body">
-    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active">Series</li></ol>
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/docs/">Docs</a></li><li class="breadcrumb-item"><a href="/docs/power-platform/">Power Platform</a></li><li class="breadcrumb-item active">Update Environment Variables</li></ol>
   </div>
-</nav><div class="taxonomys"><div class="taxonomy row card component">
-        <div class="card-header">
-          <h2 class="taxonomy-title card-title">
-            <a href="/series/blog/">Blog</a>
-          </h2>
-        </div>
-        <div class="card-body">
-          <div class="taxonomy-meta my-2">
-            <span class="taxonomy-post-count"><i class="fas fa-fw fa-file-alt"></i>1 post in total</span>
-          </div><ul class="taxonomy-posts post-list"><li class="taxonomy-post">
-              <a class="post-title" href="/docs/power-platform/update-environment-variables/">Update Environment Variables</a>
-              <span class="float-end post-date">Jan 17</span>
-            </li></ul></div></div></div><div class="row table-responsive mb-3"></div>
+</nav><article class="row card component mb-4 post"><div class="post-panel-wrapper">
+  <div class="d-flex flex-column component rounded post-panel">
+    
+    <a class="action action-panel-toggler" role="button" title="Panel toggler">
+      <i class="fas fa-fw fa-chevron-circle-down"></i>
+    </a>
+    <a id="sidebarToggler" class="action d-none d-lg-block" role="button" title="Sidebar toggler">
+  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
+</a>
+
+    
+
+    <a class="action btn-reward" role="button" data-bs-toggle="modal" data-bs-target="#rewardModal" title="Buy me a coffee">
+  <i class="fas fa-fw fa-coffee"></i>
+</a>
+    <a class="action" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
+  <i class="fas fa-fw fa-copyright"></i>
+</a>
+    <a class="action" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i class="fas fa-fw fa-comments"></i>
+</a>
+    <a class="action" href="#postTOC" aria-controls="Table of contents" role="button" title="Table of contents">
+  <i class="fas fa-fw fa-list-alt"></i>
+</a>
+    
+  </div>
 </div>
+<div class="card-header ">
+    <h1 class="card-title post-title">Update Environment Variables
+</h1>
+  </div>
+  <div class="card-body"><div class="post-meta">
+  <span class="post-date" title="created on 2022-01-17 12:00:00 &#43;0000 GMT.">
+    Jan 17, 2022
+  </span><span class="post-reading-time">
+    3 min read
+  </span><span class="post-taxonomies"><a href="/categories/power-automate/" class="badge rounded-pill post-taxonomy">Power Automate</a><a href="/categories/dataverse/" class="badge rounded-pill post-taxonomy">Dataverse</a><a href="/categories/canvas-apps/" class="badge rounded-pill post-taxonomy">Canvas Apps</a><a href="/series/blog/" class="badge rounded-pill post-taxonomy">Blog</a><a href="/tags/environment-variables/" class="badge rounded-pill post-taxonomy">Environment Variables</a><a href="/tags/flow/" class="badge rounded-pill post-taxonomy">Flow</a></span>
+</div>
+<div class="post-toc mb-4" id="postTOC">
+  <h2 class="mb-4">Table Of Contents</h2>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#using-a-canvas-app">Using a Canvas App</a></li>
+    <li><a href="#using-a-power-automate-flow">Using a Power Automate Flow</a></li>
+  </ul>
+</nav>
+</div><div class="post-content mb-3"><p>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value? Within Dataverse there are 2 tables called &lsquo;Environment Variable Value&rsquo; and &lsquo;Environment Variable Definition&rsquo; these store the value of each variable and the definition of the variable respectively. The following guides will explain how to build a canvas app and/or a Flow to update the values only.</p>
+<p>The two guides documented below are:</p>
+<ul>
+<li>Update variables in Dataverse using a canvas app
+<ul>
+<li><a href="https://github.com/realwillwright/blog_examples/tree/main/Update%20Environment%20Variables" target="_blank" rel="noopener noreferrer">Example App</a>
+</li>
+</ul>
+</li>
+<li>Update variables in Dataverse using Power Automate
+<ul>
+<li><a href="https://github.com/realwillwright/blog_examples/tree/main/Update%20Environment%20Variables" target="_blank" rel="noopener noreferrer">Example Flow</a>
+</li>
+</ul>
+</li>
+</ul>
+<p>You can of course go into each table and update them manually.</p>
+<h2 id="using-a-canvas-app">Using a Canvas App<a class="anchor ms-1" href="#using-a-canvas-app"><i class="fas fa-link"></i></a></h2>
+<p>The canvas app will only find and update variables in the environment the app is in.
+The three main controls used in the app are:</p>
+<ol>
+<li>Gallery</li>
+<li>Edit Form</li>
+<li>Button</li>
+</ol>
+<ul>
+<li>Create a new app using the tablet format</li>
+<li>Add the two Dataverse tables called &lsquo;Environment Variable Value&rsquo; and &lsquo;Environment Variable Definition&rsquo; as datasources</li>
+<li>Add a gallery to the screen and set the datasource as &lsquo;Environment Variable Definition&rsquo;
+<ul>
+<li>Set the X position to 0</li>
+<li>Set the Width to 700</li>
+</ul>
+</li>
+<li>Change the layout of the gallery to &lsquo;Title and subtitle&rsquo;</li>
+<li>In the gallery select the title control and update the text to</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">ThisItem.&#39;Display Name&#39; </span><span class="w">
+</span></code></pre></div><ul>
+<li>Add an Edit Form and use &lsquo;Environment Variable Value&rsquo; as the datasource
+<ul>
+<li>Update the X position to 700</li>
+<li>Update the width to fill the remaining space</li>
+<li>Update the Item to the following code</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">LookUp(&#39;Environment Variable Values&#39;, &#39;Environment Variable Definition&#39;.&#39;Environment Variable Definition&#39; = Gallery1.Selected.&#39;Environment Variable Definition&#39;)</span><span class="w">
+</span></code></pre></div><ul>
+<li>In the Form add the following controls in order
+<ul>
+<li>Created On</li>
+<li>Value (value is the part to be updated)</li>
+</ul>
+</li>
+<li>Finally add a button control</li>
+<li>Update the OnSelect function to</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">SubmitForm(Form1) </span><span class="w">
+</span></code></pre></div><p>Your app should be similar to the image below</p>
+<table>
+<thead>
+<tr>
+<th><img class="img-fluid float-start me-2" alt="Image of completed canvas app" src="/docs/power-platform/update-environment-variables/images/CanvasApp.png" loading="lazy"
+   width="2186" height="1229"
+   />
+
+</th>
+</tr>
+</thead>
+</table>
+<p>You can now test the app in preview mode. Selecting an item in the galley making sure the form gets populated. Update the value to the required value and finally press the button.</p>
+<h2 id="using-a-power-automate-flow">Using a Power Automate Flow<a class="anchor ms-1" href="#using-a-power-automate-flow"><i class="fas fa-link"></i></a></h2>
+<p>This guide explains how to create a manually triggered instant cloud flow to update environment variables. There will be 2 inputs to add both of which will be text.</p>
+<ul>
+<li>Name of the variable to update</li>
+<li>Value to update the variable to</li>
+</ul>
+<p>To create the Flow we will use the actions</p>
+<ol>
+<li>Manually trigger a flow</li>
+<li>List rows (x2)</li>
+<li>Compose</li>
+<li>Update Rows</li>
+</ol>
+<ul>
+<li>
+<p>Create a new instant cloud flow with the &lsquo;Manually trigger a flow&rsquo; trigger and give it a name</p>
+</li>
+<li>
+<p>Within the trigger add two text outputs</p>
+<ul>
+<li>Variable Name</li>
+<li>New Value</li>
+</ul>
+</li>
+<li>
+<p>Add the Dataverse action &lsquo;List rows&rsquo;</p>
+<ul>
+<li>Rename to &lsquo;List row from definition table&rsquo;</li>
+<li>Table name = Environment Variable Definitions</li>
+<li>Filter rows = displayname eq &lsquo;Variable Name&rsquo; from trigger</li>
+</ul>
+</li>
+<li>
+<p>Add a &lsquo;Compose&rsquo; action</p>
+<ul>
+<li>Rename to &lsquo;Compose schema name&rsquo;</li>
+<li>Inputs = first(body(&lsquo;List_row_from_definition_table&rsquo;)?[&lsquo;value&rsquo;])?[&lsquo;schemaname&rsquo;]</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">first(body(&#39;List_row_from_definition_table&#39;)?[&#39;value&#39;])?[&#39;schemaname&#39;]</span><span class="w">
+</span></code></pre></div><ul>
+<li>
+<p>Add the Dataverse action &lsquo;List rows&rsquo;</p>
+<ul>
+<li>Rename to &lsquo;List row from value table&rsquo;</li>
+<li>Table name = Environment Variable Values</li>
+<li>Filter rows = schemaname eq &lsquo;Output&rsquo; from &lsquo;Compose schema name&rsquo;</li>
+</ul>
+</li>
+<li>
+<p>Add the Dataverse action &lsquo;Update a row&rsquo;</p>
+<ul>
+<li>Rename to &lsquo;Update value in value table&rsquo;</li>
+<li>Table name = Environment Variable Values</li>
+<li>Row ID = first(body(&lsquo;List_row_from_value_table&rsquo;)?[&lsquo;value&rsquo;])?[&lsquo;environmentvariablevalueid&rsquo;]</li>
+<li>Schema name = &lsquo;Output&rsquo; from &lsquo;Compose schema name&rsquo;</li>
+<li>Value = &lsquo;New Value&rsquo; from trigger</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">first(body(&#39;List_row_from_value_table&#39;)?[&#39;value&#39;])?[&#39;environmentvariablevalueid&#39;]</span><span class="w">
+</span></code></pre></div><p>Your flow should be similar to the image below</p>
+<table>
+<thead>
+<tr>
+<th><img class="img-fluid float-start me-2" alt="Image of completed Flow steps" src="/docs/power-platform/update-environment-variables/images/Flow.png" loading="lazy"
+   width="1212" height="790"
+   />
+
+</th>
+</tr>
+</thead>
+</table>
+<p>Once complete you can start testing your flow. Click &lsquo;Test&rsquo; and select &lsquo;Manually&rsquo; from the menu and press &lsquo;Test&rsquo;. Enter your variable name as well as the value to update it to and press &lsquo;Run flow&rsquo;.</p>
+</div><div class="modal fade" id="rewardModal" tabindex="-1" aria-labelledby="rewardModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content surface">
+      <div class="modal-header">
+        <h5 class="modal-title" id="rewardModalLabel"><i class="fas fa-fw fa-coffee"></i>Buy me a coffee</h5>
+        <a href="#" data-bs-dismiss="modal" class="btn btn-sm btn-outline-primary" aria-label="Close"><i class="fas fa-times"></i></a>
+      </div>
+      <div class="modal-body">
+        <ul class="nav nav-tabs mb-3" role="tablist"><li class="nav-item text-nowrap" role="presentation">
+            <a class="nav-link active" id="reward-coffee-tab" data-bs-toggle="tab" href="#reward-coffee" role="tab" aria-controls="reward-coffee" aria-selected="true">
+              <i class="fab fa-fw fa-coffee"></i>Buy me a coffee
+            </a>
+          </li></ul>
+        <div class="tab-content" id="rewardTabContent"><div class="tab-pane fade post-reward-content show active" id="reward-coffee" role="tabpanel" aria-labelledby="reward-coffee-tab">
+            <img class="img-fluid post-reward-img" src="/images/reward/buymeacoffee.png" loading="lazy" />
+          </div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="post-copyright mb-3" id="post-copyright">
+    <h2 class="mb-4">Copyright</h2><a class="d-flex align-items-center flex-column" target="_blank" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">
+  <span><i class="fab fa-fw fa-2x fa-creative-commons"></i><i class="fab fa-fw fa-2x fa-creative-commons-by"></i><i class="fab fa-fw fa-2x fa-creative-commons-nc"></i><i class="fab fa-fw fa-2x fa-creative-commons-nd"></i></span>
+  CC BY-NC-ND 4.0 
+</a>
+
+
+</div>
+</div>
+  <div class="card-footer"><div class="post-navs d-flex justify-content-evenly">
+  <div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-left"></i>
+    <a href="/about/">About
+</a>
+  </div></div></div>
+</article><section class="related-posts row card component">
+    <div class="card-header">
+      <h2 class="card-title">Related Posts</h2>
+    </div>
+    <div class="card-body">
+      <ul class="post-list"><li>
+          <a href="/about/">About
+</a>
+          <span class="float-end post-date">Jan 10, 2022
+</span>
+        </li><li>
+          <a href="/faq/">FAQs
+</a>
+          <span class="float-end post-date">Jan 1, 0001
+</span>
+        </li><li>
+          <a href="/offline/">Offline
+</a>
+          <span class="float-end post-date">Jan 1, 0001
+</span>
+        </li></ul>
+    </div>
+  </section><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">Comments</h2>
+  </div>
+  <div class="card-body"><script src="https://utteranc.es/client.js"
+  repo="realwillwright/realwillwright.github.io"
+  issue-term="title"
+  label="utterances"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script></div>
+</div></div>
 </div><aside class="col-lg-4 sidebar d-flex">
   <div class="container">
     
@@ -229,9 +483,7 @@
         <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
       </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/realwillwright" title="Twitter" rel="noopener noreferrer">
         <i class="fa-fw fa-2x fab fa-twitter"></i>
-      </a><a class="nav-link social-link" target="_blank" href="/series/index.xml" title="RSS" rel="noopener noreferrer">
-      <i class="fas fa-fw fa-2x fa-rss"></i>
-    </a></nav>
+      </a></nav>
 </div>
   </div>
 </section>
@@ -301,9 +553,7 @@
         <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
       </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/realwillwright" title="Twitter" rel="noopener noreferrer">
         <i class="fa-fw fa-2x fab fa-twitter"></i>
-      </a><a class="nav-link social-link" target="_blank" href="/series/index.xml" title="RSS" rel="noopener noreferrer">
-      <i class="fas fa-fw fa-2x fa-rss"></i>
-    </a></nav>
+      </a></nav>
 <div class="copyright mb-2">
   Copyright © 2022-2022 Will Wright. All Rights Reserved.
 </div>
