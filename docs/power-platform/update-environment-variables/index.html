@@ -12,7 +12,7 @@
 <meta name="description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated" /><meta itemprop="name" content="Update Environment Variables">
 <meta itemprop="description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated"><meta itemprop="datePublished" content="2022-01-17T12:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-01-17T12:00:00+00:00" />
-<meta itemprop="wordCount" content="584">
+<meta itemprop="wordCount" content="567">
 <meta itemprop="keywords" content="Environment Variables,Flow," /><meta property="og:title" content="Update Environment Variables" />
 <meta property="og:description" content="Once a managed solution has been imported how are the environmental variables that have just been set updated" />
 <meta property="og:type" content="article" />
@@ -280,10 +280,13 @@ The three main controls used in the app are:</p>
 <li>Add the two Dataverse tables called &lsquo;Environment Variable Value&rsquo; and &lsquo;Environment Variable Definition&rsquo; as datasources</li>
 <li>Add a gallery to the screen and set the datasource as &lsquo;Environment Variable Definition&rsquo;
 <ul>
-<li>Set the X position to 0</li>
-<li>Set the Width to 700</li>
+<li>Set the following properties as below</li>
 </ul>
 </li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="nt">X</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span><span class="ln">2</span><span class="w"></span><span class="nt">Width</span><span class="p">:</span><span class="w"> </span><span class="m">700</span><span class="w">
+</span></code></pre></div><ul>
 <li>Change the layout of the gallery to &lsquo;Title and subtitle&rsquo;</li>
 <li>In the gallery select the title control and update the text to</li>
 </ul>
@@ -291,13 +294,13 @@ The three main controls used in the app are:</p>
 </span></code></pre></div><ul>
 <li>Add an Edit Form and use &lsquo;Environment Variable Value&rsquo; as the datasource
 <ul>
-<li>Update the X position to 700</li>
-<li>Update the width to fill the remaining space</li>
-<li>Update the Item to the following code</li>
+<li>Set the following properties as below</li>
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">LookUp(&#39;Environment Variable Values&#39;, &#39;Environment Variable Definition&#39;.&#39;Environment Variable Definition&#39; = Gallery1.Selected.&#39;Environment Variable Definition&#39;)</span><span class="w">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="nt">X</span><span class="p">:</span><span class="w"> </span><span class="m">700</span><span class="w">
+</span><span class="ln">2</span><span class="w"></span><span class="nt">Width</span><span class="p">:</span><span class="w"> </span><span class="l">Parent.Width - Self.X</span><span class="w">
+</span><span class="ln">3</span><span class="w"></span><span class="nt">Item</span><span class="p">:</span><span class="w"> </span><span class="l">LookUp(&#39;Environment Variable Values&#39;, &#39;Environment Variable Definition&#39;.&#39;Environment Variable Definition&#39; = Gallery1.Selected.&#39;Environment Variable Definition&#39;)</span><span class="w">
 </span></code></pre></div><ul>
 <li>In the Form add the following controls in order
 <ul>
@@ -336,44 +339,37 @@ The three main controls used in the app are:</p>
 <li>Update Rows</li>
 </ol>
 <ul>
-<li>
-<p>Create a new instant cloud flow with the &lsquo;Manually trigger a flow&rsquo; trigger and give it a name</p>
-</li>
-<li>
-<p>Within the trigger add two text outputs</p>
+<li>Create a new instant cloud flow with the &lsquo;Manually trigger a flow&rsquo; trigger and give it a name</li>
+<li>Within the trigger add two text outputs
 <ul>
 <li>Variable Name</li>
 <li>New Value</li>
 </ul>
 </li>
-<li>
-<p>Add the Dataverse action &lsquo;List rows&rsquo;</p>
+<li>Add the Dataverse action &lsquo;List rows&rsquo;
 <ul>
 <li>Rename to &lsquo;List row from definition table&rsquo;</li>
 <li>Table name = Environment Variable Definitions</li>
 <li>Filter rows = displayname eq &lsquo;Variable Name&rsquo; from trigger</li>
 </ul>
 </li>
-<li>
-<p>Add a &lsquo;Compose&rsquo; action</p>
+<li>Add a &lsquo;Compose&rsquo; action
 <ul>
 <li>Rename to &lsquo;Compose schema name&rsquo;</li>
 <li>Inputs = first(body(&lsquo;List_row_from_definition_table&rsquo;)?[&lsquo;value&rsquo;])?[&lsquo;schemaname&rsquo;]</li>
 </ul>
 </li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="ln">1</span><span class="l">first(body(&#39;List_row_from_definition_table&#39;)?[&#39;value&#39;])?[&#39;schemaname&#39;]</span><span class="w">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="ln">1</span><span class="l">first(body(&#39;List_row_from_definition_table&#39;)?[&#39;value&#39;])?[&#39;schemaname&#39;]</span><span class="w">
 </span></code></pre></div><ul>
-<li>
-<p>Add the Dataverse action &lsquo;List rows&rsquo;</p>
+<li>Add the Dataverse action &lsquo;List rows&rsquo;
 <ul>
 <li>Rename to &lsquo;List row from value table&rsquo;</li>
 <li>Table name = Environment Variable Values</li>
 <li>Filter rows = schemaname eq &lsquo;Output&rsquo; from &lsquo;Compose schema name&rsquo;</li>
 </ul>
 </li>
-<li>
-<p>Add the Dataverse action &lsquo;Update a row&rsquo;</p>
+<li>Add the Dataverse action &lsquo;Update a row&rsquo;
 <ul>
 <li>Rename to &lsquo;Update value in value table&rsquo;</li>
 <li>Table name = Environment Variable Values</li>
