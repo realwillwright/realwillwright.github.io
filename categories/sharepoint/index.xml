@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Power Automate on Will Wright Blog</title>
-    <link>/categories/power-automate/</link>
-    <description>Recent content in Power Automate on Will Wright Blog</description>
+    <title>SharePoint on Will Wright Blog</title>
+    <link>/categories/sharepoint/</link>
+    <description>Recent content in SharePoint on Will Wright Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="/categories/power-automate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="/categories/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
       <link>/docs/sharepoint/get-ssplist-and-termsetlist/</link>
@@ -18,15 +18,6 @@
 To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there
  Go to Site Settings and under Site Administration select Term store management https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_layouts/15/SiteAdmin.aspx#/termStoreAdminCenter  Selec the termset you are using and under unique identifier there is the termSetList Id
        </description>
-    </item>
-    
-    <item>
-      <title>Update Environment Variables</title>
-      <link>/docs/power-platform/update-environment-variables/</link>
-      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
-      
-      <guid>/docs/power-platform/update-environment-variables/</guid>
-      <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value? Within Dataverse there are 2 tables called &amp;lsquo;Environment Variable Value&amp;rsquo; and &amp;lsquo;Environment Variable Definition&amp;rsquo; these store the value of each variable and the definition of the variable respectively. The following guides will explain how to build a canvas app and/or a Flow to update the values only.</description>
     </item>
     
   </channel>

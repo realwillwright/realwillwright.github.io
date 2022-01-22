@@ -3,23 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Power Automate - Categories - Will Wright Blog</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
+    <title>Get the SSPList Id and termSetItem Id - Will Wright Blog</title><link rel="apple-touch-icon" href="/images/icons/icon-180x180.png" sizes="180x180">
 <link rel="icon" href="/images/icons/icon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/images/icons/icon-16x16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="/images/icons/favicon.ico">
 <link rel="manifest" href="/manifest.json">
-<meta name="keywords" content="Home Assistant, Home Automation, Power Platform, Power Apps, Canvas Apps, Power Automate, Power BI, Microsoft, Office365, M365, O365" />
-<meta name="description" content="An M365 and home automation blog" /><meta itemprop="name" content="Power Automate">
-<meta itemprop="description" content="An M365 and home automation blog"><meta property="og:title" content="Power Automate" />
-<meta property="og:description" content="An M365 and home automation blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/categories/power-automate/" />
+<meta name="keywords" content="" />
+<meta name="description" content="How can I get the SSPList Id and termSetItem Id " /><meta itemprop="name" content="Get the SSPList Id and termSetItem Id">
+<meta itemprop="description" content="How can I get the SSPList Id and termSetItem Id "><meta itemprop="datePublished" content="2022-01-22T12:54:13+00:00" />
+<meta itemprop="dateModified" content="2022-01-22T12:54:13+00:00" />
+<meta itemprop="wordCount" content="59">
+<meta itemprop="keywords" content="Flow,Term store,Managed metadata," /><meta property="og:title" content="Get the SSPList Id and termSetItem Id" />
+<meta property="og:description" content="How can I get the SSPList Id and termSetItem Id " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/sharepoint/get-ssplist-and-termsetlist/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-01-22T12:54:13+00:00" />
+<meta property="article:modified_time" content="2022-01-22T12:54:13+00:00" />
+<meta property="og:see_also" content="/docs/power-platform/update-environment-variables/" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Power Automate"/>
-<meta name="twitter:description" content="An M365 and home automation blog"/>
+<meta name="twitter:title" content="Get the SSPList Id and termSetItem Id"/>
+<meta name="twitter:description" content="How can I get the SSPList Id and termSetItem Id "/>
 <meta name="twitter:site" content="@realwillwright"/>
-<meta name="robots" content="index, follow" /><link rel="alternate" type="application/rss+xml" href="/categories/power-automate/index.xml" title="Will Wright Blog" /><link rel="stylesheet" href="/css/main.min.54be782c44a498e3e683c8d9fa311cd15079697ddfeabc6f0fd1416fb835815a.css" integrity="sha256-VL54LESkmOPmg8jZ&#43;jEc0VB5aX3f6rxvD9FBb7g1gVo=" crossorigin="anonymous"><link rel="stylesheet" href="/css/viewer.min.3d228794bcedbbfa0412beb8fbc1ec6973202945e42af7004f742a4d7bd620ab.css" integrity="sha256-PSKHlLztu/oEEr64&#43;8HsaXMgKUXkKvcAT3QqTXvWIKs=" crossorigin="anonymous"></head>
+<meta name="robots" content="index, follow" /><link rel="stylesheet" href="/css/main.min.54be782c44a498e3e683c8d9fa311cd15079697ddfeabc6f0fd1416fb835815a.css" integrity="sha256-VL54LESkmOPmg8jZ&#43;jEc0VB5aX3f6rxvD9FBb7g1gVo=" crossorigin="anonymous"><link rel="stylesheet" href="/css/viewer.min.3d228794bcedbbfa0412beb8fbc1ec6973202945e42af7004f742a4d7bd620ab.css" integrity="sha256-PSKHlLztu/oEEr64&#43;8HsaXMgKUXkKvcAT3QqTXvWIKs=" crossorigin="anonymous"></head>
   <body><script>const items=['mode','palette'];items.forEach(function(a){const b=localStorage.getItem('hbs-'+a);b&&document.body.parentElement.setAttribute('data-'+a,b)})</script><header><nav class="navbar top-app-bar top-app-bar-expand-lg fixed-top">
   <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,11 +45,11 @@
   </div>
   <div class="offcanvas-body">
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Twitter Share Button"
-      target="_blank" href="https://twitter.com/intent/tweet?title=Power%20Automate&url=%2fcategories%2fpower-automate%2f">
+      target="_blank" href="https://twitter.com/intent/tweet?title=Get%20the%20SSPList%20Id%20and%20termSetItem%20Id&url=%2fdocs%2fsharepoint%2fget-ssplist-and-termsetlist%2f">
       <i class="fab fa-fw fa-twitter"></i> Twitter
     </a>
     <a class="btn btn-sm btn-outline-primary social-share-button" rel="noopener noreferrer" aria-label="Facebook Share Button"
-      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fcategories%2fpower-automate%2f">
+      target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=%2fdocs%2fsharepoint%2fget-ssplist-and-termsetlist%2f">
       <i class="fab fa-fw fa-facebook-f"></i> Facebook
     </a>
   </div>
@@ -196,49 +202,138 @@
 <div class="col-lg-8">
   <div class="container"><nav class="row card component" aria-label="breadcrumb">
   <div class="card-body">
-    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/categories/">Categories</a></li><li class="breadcrumb-item active">Power Automate</li></ol>
+    <ol class="breadcrumb "><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item"><a href="/docs/">Docs</a></li><li class="breadcrumb-item"><a href="/docs/sharepoint/">SharePoint</a></li><li class="breadcrumb-item active">Get the SSPList Id and TermSetItem Id</li></ol>
   </div>
-</nav><div class="posts mb-4"><article class="row card post component"><div class="card-header">
-        <h2 class="card-title post-title">
-          <a href="/docs/sharepoint/get-ssplist-and-termsetlist/">Get the SSPList Id and TermSetItem Id
+</nav><article class="row card component mb-4 post"><div class="post-panel-wrapper">
+  <div class="d-flex flex-column component rounded post-panel">
+    
+    <a class="action action-panel-toggler" role="button" title="Panel toggler">
+      <i class="fas fa-fw fa-chevron-circle-down"></i>
+    </a>
+    <a id="sidebarToggler" class="action d-none d-lg-block" role="button" title="Sidebar toggler">
+  <i class="fas fa-fw fa-expand-alt" data-fa-transform="rotate-45"></i>
 </a>
-        </h2>
-      </div>
-      <div class="card-body">
-        <div class="post-meta">
+
+    
+
+    <a class="action btn-reward" role="button" data-bs-toggle="modal" data-bs-target="#rewardModal" title="Buy me a coffee">
+  <i class="fas fa-fw fa-coffee"></i>
+</a>
+    <a class="action" href="#post-copyright" role="button" aria-label="Copyright" title="Copyright">
+  <i class="fas fa-fw fa-copyright"></i>
+</a>
+    <a class="action" href="#post-comments" role="button" aria-label="Comments" title="Comments">
+  <i class="fas fa-fw fa-comments"></i>
+</a>
+    
+    
+  </div>
+</div>
+<div class="card-header ">
+    <h1 class="card-title post-title">Get the SSPList Id and TermSetItem Id
+</h1>
+  </div>
+  <div class="card-body"><div class="post-meta">
   <span class="post-date" title="created on 2022-01-22 12:54:13 &#43;0000 GMT.">
     Jan 22, 2022
   </span><span class="post-reading-time">
     1 min read
   </span><span class="post-taxonomies"><a href="/categories/power-automate/" class="badge rounded-pill post-taxonomy">Power Automate</a><a href="/categories/sharepoint/" class="badge rounded-pill post-taxonomy">SharePoint</a><a href="/series/blog/" class="badge rounded-pill post-taxonomy">Blog</a><a href="/tags/flow/" class="badge rounded-pill post-taxonomy">Flow</a><a href="/tags/term-store/" class="badge rounded-pill post-taxonomy">Term store</a><a href="/tags/managed-metadata/" class="badge rounded-pill post-taxonomy">Managed metadata</a></span>
 </div>
-<div class="post-summary">
-          To get the sspListId the following url will display it https://&lt;tenant&gt;.sharepoint.com/sites/&lt;site&gt;/_api/web/lists/getbytitle('&lt;list&gt;')/fields?$filter=InternalName eq '&lt;internalMetadataColumnName&gt;'
-To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there
- Go to …
-        </div>
+<div class="post-content mb-3"><p><strong>To get the sspListId the following url will display it</strong>
+<code>https://&lt;tenant&gt;.sharepoint.com/sites/&lt;site&gt;/_api/web/lists/getbytitle('&lt;list&gt;')/fields?$filter=InternalName eq '&lt;internalMetadataColumnName&gt;'</code></p>
+<p><strong>To get the termSetList Id go to the TermStore Admin Centre</strong>
+There are 2 option to get there</p>
+<ol>
+<li>Go to <code>Site Settings</code> and under <code>Site Administration</code> select <code>Term store management</code></li>
+<li><code>https://&lt;tenant&gt;.sharepoint.com/sites/&lt;site&gt;/_layouts/15/SiteAdmin.aspx#/termStoreAdminCenter</code></li>
+</ol>
+<p>Selec the termset you are using and under unique identifier there is the termSetList Id</p>
+<table>
+<thead>
+<tr>
+<th><img class="img-fluid float-start me-2" alt="Image of termSetList" src="/docs/sharepoint/get-ssplist-and-termsetlist/images/termSetList.png" loading="lazy"
+   width="2321" height="1080"
+   />
+
+</th>
+</tr>
+</thead>
+</table>
+</div><div class="modal fade" id="rewardModal" tabindex="-1" aria-labelledby="rewardModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content surface">
+      <div class="modal-header">
+        <h5 class="modal-title" id="rewardModalLabel"><i class="fas fa-fw fa-coffee"></i>Buy me a coffee</h5>
+        <a href="#" data-bs-dismiss="modal" class="btn btn-sm btn-outline-primary" aria-label="Close"><i class="fas fa-times"></i></a>
       </div>
-    </article><article class="row card post component"><div class="card-header">
-        <h2 class="card-title post-title">
+      <div class="modal-body">
+        <ul class="nav nav-tabs mb-3" role="tablist"><li class="nav-item text-nowrap" role="presentation">
+            <a class="nav-link active" id="reward-coffee-tab" data-bs-toggle="tab" href="#reward-coffee" role="tab" aria-controls="reward-coffee" aria-selected="true">
+              <i class="fab fa-fw fa-coffee"></i>Buy me a coffee
+            </a>
+          </li></ul>
+        <div class="tab-content" id="rewardTabContent"><div class="tab-pane fade post-reward-content show active" id="reward-coffee" role="tabpanel" aria-labelledby="reward-coffee-tab">
+            <img class="img-fluid post-reward-img" src="/images/reward/buymeacoffee.png" loading="lazy" />
+          </div></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="post-copyright mb-3" id="post-copyright">
+    <h2 class="mb-4">Copyright</h2><a class="d-flex align-items-center flex-column" target="_blank" rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">
+  <span><i class="fab fa-fw fa-2x fa-creative-commons"></i><i class="fab fa-fw fa-2x fa-creative-commons-by"></i><i class="fab fa-fw fa-2x fa-creative-commons-nc"></i><i class="fab fa-fw fa-2x fa-creative-commons-nd"></i></span>
+  CC BY-NC-ND 4.0 
+</a>
+
+
+</div>
+</div>
+  <div class="card-footer"><div class="post-navs d-flex justify-content-evenly">
+  <div class="post-nav post-prev"><i class="fas fa-fw fa-chevron-left"></i>
+    <a href="/docs/power-platform/update-environment-variables/">Update Environment Variables
+</a>
+  </div></div></div>
+</article><section class="related-posts row card component">
+    <div class="card-header">
+      <h2 class="card-title">Related Posts</h2>
+    </div>
+    <div class="card-body">
+      <ul class="post-list"><li>
           <a href="/docs/power-platform/update-environment-variables/">Update Environment Variables
 </a>
-        </h2>
-      </div>
-      <div class="card-body">
-        <div class="post-meta">
-  <span class="post-date" title="created on 2022-01-17 12:00:00 &#43;0000 GMT.">
-    Jan 17, 2022
-  </span><span class="post-reading-time">
-    3 min read
-  </span><span class="post-taxonomies"><a href="/categories/power-automate/" class="badge rounded-pill post-taxonomy">Power Automate</a><a href="/categories/dataverse/" class="badge rounded-pill post-taxonomy">Dataverse</a><a href="/categories/canvas-apps/" class="badge rounded-pill post-taxonomy">Canvas Apps</a><a href="/series/blog/" class="badge rounded-pill post-taxonomy">Blog</a><a href="/tags/environment-variables/" class="badge rounded-pill post-taxonomy">Environment Variables</a><a href="/tags/flow/" class="badge rounded-pill post-taxonomy">Flow</a></span>
-</div>
-<div class="post-summary">
-          We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value? Within Dataverse there are 2 tables called &lsquo;Environment Variable Value&rsquo; and &lsquo;Environment Variable Definition&rsquo; these store the value …
-        </div>
-      </div>
-    </article></div><div class="row table-responsive mb-3"></div>
-</div>
-
+          <span class="float-end post-date">Jan 17, 2022
+</span>
+        </li><li>
+          <a href="/about/">About
+</a>
+          <span class="float-end post-date">Jan 10, 2022
+</span>
+        </li><li>
+          <a href="/faq/">FAQs
+</a>
+          <span class="float-end post-date">Jan 1, 0001
+</span>
+        </li><li>
+          <a href="/offline/">Offline
+</a>
+          <span class="float-end post-date">Jan 1, 0001
+</span>
+        </li></ul>
+    </div>
+  </section><div class="card component row post-comments" id="post-comments">
+  <div class="card-header">
+    <h2 class="card-title">Comments</h2>
+  </div>
+  <div class="card-body"><script src="https://utteranc.es/client.js"
+  repo="realwillwright/realwillwright.github.io"
+  issue-term="title"
+  label="utterances"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async>
+</script></div>
+</div></div>
 </div><aside class="col-lg-4 sidebar d-flex">
   <div class="container">
     
@@ -256,9 +351,7 @@ To get the termSetList Id go to the TermStore Admin Centre There are 2 option to
         <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
       </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/realwillwright" title="Twitter" rel="noopener noreferrer">
         <i class="fa-fw fa-2x fab fa-twitter"></i>
-      </a><a class="nav-link social-link" target="_blank" href="/categories/power-automate/index.xml" title="RSS" rel="noopener noreferrer">
-      <i class="fas fa-fw fa-2x fa-rss"></i>
-    </a></nav>
+      </a></nav>
 </div>
   </div>
 </section>
@@ -334,9 +427,7 @@ To get the termSetList Id go to the TermStore Admin Centre There are 2 option to
         <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
       </a><a class="nav-link social-link" target="_blank" href="https://twitter.com/realwillwright" title="Twitter" rel="noopener noreferrer">
         <i class="fa-fw fa-2x fab fa-twitter"></i>
-      </a><a class="nav-link social-link" target="_blank" href="/categories/power-automate/index.xml" title="RSS" rel="noopener noreferrer">
-      <i class="fas fa-fw fa-2x fa-rss"></i>
-    </a></nav>
+      </a></nav>
 <div class="copyright mb-2">
   Copyright © 2022-2022 Will Wright. All Rights Reserved.
 </div>

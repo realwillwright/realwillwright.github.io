@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 17 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get the SSPList Id and termSetItem Id</title>
+      <link>/docs/sharepoint/get-ssplist-and-termsetlist/</link>
+      <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>/docs/sharepoint/get-ssplist-and-termsetlist/</guid>
+      <description>To get the sspListId the following url will display it https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_api/web/lists/getbytitle(&#39;&amp;lt;list&amp;gt;&#39;)/fields?$filter=InternalName eq &#39;&amp;lt;internalMetadataColumnName&amp;gt;&#39;
+To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there
+ Go to Site Settings and under Site Administration select Term store management https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_layouts/15/SiteAdmin.aspx#/termStoreAdminCenter  Selec the termset you are using and under unique identifier there is the termSetList Id
+       </description>
+    </item>
+    
     <item>
       <title>Update Environment Variables</title>
       <link>/docs/power-platform/update-environment-variables/</link>
