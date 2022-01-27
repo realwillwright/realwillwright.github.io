@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Will Wright Blog</title>
-    <link>/</link>
+    <link>https://www.realwillwright.com/</link>
     <description>Recent content on Will Wright Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
-      <link>/docs/sharepoint/get-ssplist-and-termsetlist/</link>
+      <link>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>/docs/sharepoint/get-ssplist-and-termsetlist/</guid>
+      <guid>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</guid>
       <description>To get the sspListId the following url will display it https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_api/web/lists/getbytitle(&#39;&amp;lt;list&amp;gt;&#39;)/fields?$filter=InternalName eq &#39;&amp;lt;internalMetadataColumnName&amp;gt;&#39;
 To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there
  Go to Site Settings and under Site Administration select Term store management https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_layouts/15/SiteAdmin.aspx#/termStoreAdminCenter  Selec the termset you are using and under unique identifier there is the termSetList Id
@@ -22,37 +22,37 @@ To get the termSetList Id go to the TermStore Admin Centre There are 2 option to
     
     <item>
       <title>Update Environment Variables</title>
-      <link>/docs/power-platform/update-environment-variables/</link>
+      <link>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</link>
       <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>/docs/power-platform/update-environment-variables/</guid>
+      <guid>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</guid>
       <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value? Within Dataverse there are 2 tables called &amp;lsquo;Environment Variable Value&amp;rsquo; and &amp;lsquo;Environment Variable Definition&amp;rsquo; these store the value of each variable and the definition of the variable respectively. The following guides will explain how to build a canvas app and/or a Flow to update the values only.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://www.realwillwright.com/about/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://www.realwillwright.com/about/</guid>
       <description>Welcome my spot on the Intranet I will be writting various pieces on a range of subjects many of which are mentioned below. I&amp;rsquo;m a senior consultant at a Microsoft partner currently focusing on many aspects of the Power Platform, Power Apps, Power Automate and Power BI as well as working on SharePoint intranets and document management systems. I like my home automation so will have a few posts on my automation projects and making my home &amp;ldquo;smart&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>FAQs</title>
-      <link>/faq/</link>
+      <link>https://www.realwillwright.com/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/faq/</guid>
+      <guid>https://www.realwillwright.com/faq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Offline</title>
-      <link>/offline/</link>
+      <link>https://www.realwillwright.com/offline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/offline/</guid>
+      <guid>https://www.realwillwright.com/offline/</guid>
       <description></description>
     </item>
     

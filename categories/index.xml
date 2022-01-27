@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Will Wright Blog</title>
-    <link>/categories/</link>
+    <link>https://www.realwillwright.com/categories/</link>
     <description>Recent content in Categories on Will Wright Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Power Automate</title>
-      <link>/categories/power-automate/</link>
+      <link>https://www.realwillwright.com/categories/power-automate/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>/categories/power-automate/</guid>
+      <guid>https://www.realwillwright.com/categories/power-automate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SharePoint</title>
-      <link>/categories/sharepoint/</link>
+      <link>https://www.realwillwright.com/categories/sharepoint/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>/categories/sharepoint/</guid>
+      <guid>https://www.realwillwright.com/categories/sharepoint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Canvas Apps</title>
-      <link>/categories/canvas-apps/</link>
+      <link>https://www.realwillwright.com/categories/canvas-apps/</link>
       <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>/categories/canvas-apps/</guid>
+      <guid>https://www.realwillwright.com/categories/canvas-apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dataverse</title>
-      <link>/categories/dataverse/</link>
+      <link>https://www.realwillwright.com/categories/dataverse/</link>
       <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>/categories/dataverse/</guid>
+      <guid>https://www.realwillwright.com/categories/dataverse/</guid>
       <description></description>
     </item>
     

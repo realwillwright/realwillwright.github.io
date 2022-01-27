@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Canvas Apps on Will Wright Blog</title>
-    <link>/categories/canvas-apps/</link>
+    <link>https://www.realwillwright.com/categories/canvas-apps/</link>
     <description>Recent content in Canvas Apps on Will Wright Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2022-{year} Will Wright. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 17 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="/categories/canvas-apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/categories/canvas-apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update Environment Variables</title>
-      <link>/docs/power-platform/update-environment-variables/</link>
+      <link>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</link>
       <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>/docs/power-platform/update-environment-variables/</guid>
+      <guid>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</guid>
       <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value? Within Dataverse there are 2 tables called &amp;lsquo;Environment Variable Value&amp;rsquo; and &amp;lsquo;Environment Variable Definition&amp;rsquo; these store the value of each variable and the definition of the variable respectively. The following guides will explain how to build a canvas app and/or a Flow to update the values only.</description>
     </item>
     
