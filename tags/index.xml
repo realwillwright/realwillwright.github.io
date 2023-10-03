@@ -7,14 +7,494 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Blowfish</copyright>
-    <atom:link href="https://www.realwillwright.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>authors</title>
+      <link>https://www.realwillwright.com/tags/authors/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/authors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>sample</title>
+      <link>https://www.realwillwright.com/tags/sample/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/sample/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>thumbnail</title>
+      <link>https://www.realwillwright.com/tags/thumbnail/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/thumbnail/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>https://www.realwillwright.com/tags/docs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/docs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>https://www.realwillwright.com/tags/new/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/new/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>https://www.realwillwright.com/tags/installation/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/installation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>config</title>
+      <link>https://www.realwillwright.com/tags/config/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/config/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>icons</title>
+      <link>https://www.realwillwright.com/tags/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/icons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://www.realwillwright.com/tags/shortcodes/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/shortcodes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>users</title>
+      <link>https://www.realwillwright.com/tags/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/users/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>homepage</title>
+      <link>https://www.realwillwright.com/tags/homepage/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/homepage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>layouts</title>
+      <link>https://www.realwillwright.com/tags/layouts/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/layouts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>front matter</title>
+      <link>https://www.realwillwright.com/tags/front-matter/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/front-matter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>icon</title>
+      <link>https://www.realwillwright.com/tags/icon/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/icon/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>lead</title>
+      <link>https://www.realwillwright.com/tags/lead/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/lead/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>mermaid</title>
+      <link>https://www.realwillwright.com/tags/mermaid/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/mermaid/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>https://www.realwillwright.com/tags/analytics/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/analytics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>comments</title>
+      <link>https://www.realwillwright.com/tags/comments/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/comments/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>favicons</title>
+      <link>https://www.realwillwright.com/tags/favicons/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/favicons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>partials</title>
+      <link>https://www.realwillwright.com/tags/partials/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/partials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>https://www.realwillwright.com/tags/privacy/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/privacy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>content</title>
+      <link>https://www.realwillwright.com/tags/content/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/content/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>https://www.realwillwright.com/tags/example/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>series</title>
+      <link>https://www.realwillwright.com/tags/series/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/series/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Advanced</title>
       <link>https://www.realwillwright.com/tags/advanced/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.realwillwright.com/tags/advanced/</guid>
       <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://www.realwillwright.com/tags/css/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/css/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>https://www.realwillwright.com/tags/deployment/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/deployment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://www.realwillwright.com/tags/github/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>https://www.realwillwright.com/tags/hosting/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/hosting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>netlify</title>
+      <link>https://www.realwillwright.com/tags/netlify/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/netlify/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>render</title>
+      <link>https://www.realwillwright.com/tags/render/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/render/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>https://www.realwillwright.com/tags/firebase/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/firebase/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>likes</title>
+      <link>https://www.realwillwright.com/tags/likes/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/likes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>views</title>
+      <link>https://www.realwillwright.com/tags/views/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/views/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://www.realwillwright.com/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/html/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://www.realwillwright.com/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/markdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>gist</title>
+      <link>https://www.realwillwright.com/tags/gist/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/gist/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://www.realwillwright.com/tags/twitter/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/twitter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>vimeo</title>
+      <link>https://www.realwillwright.com/tags/vimeo/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/vimeo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://www.realwillwright.com/tags/youtube/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/youtube/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>latin</title>
+      <link>https://www.realwillwright.com/tags/latin/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/latin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://www.realwillwright.com/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/text/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>katex</title>
+      <link>https://www.realwillwright.com/tags/katex/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/katex/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>maths</title>
+      <link>https://www.realwillwright.com/tags/maths/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/maths/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>chart</title>
+      <link>https://www.realwillwright.com/tags/chart/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/chart/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>diagram</title>
+      <link>https://www.realwillwright.com/tags/diagram/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/diagram/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>https://www.realwillwright.com/tags/graph/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/graph/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>https://www.realwillwright.com/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/emoji/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>https://www.realwillwright.com/tags/template/</link>
+      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/template/</guid>
+      <description></description>
       
     </item>
     
