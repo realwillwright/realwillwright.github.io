@@ -6,18 +6,7 @@
     <description>Recent content in Recipes on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023 Blowfish</copyright>
-    <lastBuildDate>Tue, 22 Dec 1987 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/guides/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Recipe Template</title>
-      <link>https://www.realwillwright.com/guides/template/</link>
-      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/guides/template/</guid>
-      <description>Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.
-How to start? # This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/guides/template/cover.png" />
-    </item>
-    
+    <copyright>© 2023 Will Wright</copyright>
+    <atom:link href="https://www.realwillwright.com/guides/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
