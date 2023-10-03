@@ -3,13 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-  
-    
       <url>
             <loc>www.realwillwright.com/</loc>
+            <lastmod>2022-06-13T20:55:37+01:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
+    
+  
+    
+      <url>
+            <loc>www.realwillwright.com/posts/</loc>
+            <lastmod>2022-06-13T20:55:37+01:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
