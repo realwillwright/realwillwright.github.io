@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power Platform on Blowfish</title>
+    <link>https://www.realwillwright.com/docs/power-platform/</link>
+    <description>Recent content in Power Platform on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Will Wright</copyright>
+    <lastBuildDate>Tue, 18 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/docs/power-platform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sending an HTTP request to SharePoint</title>
+      <link>https://www.realwillwright.com/docs/power-platform/send-http-request-to-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/send-http-request-to-sharepoint/</guid>
+      <description>This is my guide for patching SharePoint items using the SharePoint REST API. All code can be copied and pasted into the body. Method, Uri and Headers will need to be different depending on whether you&amp;rsquo;re creating or updating an item.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Choice Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-choice-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-choice-column-in-sharepoint/</guid>
+      <description>To update a choice column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Date Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-date-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-date-column-in-sharepoint/</guid>
+      <description>To update a date column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Lookup Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-lookup-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-lookup-column-in-sharepoint/</guid>
+      <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Managed Metadata Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-managed-metadata-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-managed-metadata-column-in-sharepoint/</guid>
+      <description>To update a managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Multi Choice Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-multi-choice-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-choice-column-in-sharepoint/</guid>
+      <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Multi Lookup Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-multi-lookup-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-lookup-column-in-sharepoint/</guid>
+      <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Multiple Managed Metadata Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-multi-managed-metadata-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-managed-metadata-column-in-sharepoint/</guid>
+      <description>To update a multi managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Multiple Person Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-multi-person-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-person-column-in-sharepoint/</guid>
+      <description>To update a person column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Person Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-person-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-person-column-in-sharepoint/</guid>
+      <description>To update a person column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Single Line of Text Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-single-line-of-text-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-single-line-of-text-column-in-sharepoint/</guid>
+      <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
+      
+    </item>
+    
+    <item>
+      <title>Update URL Column in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-url-column-in-sharepoint/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-url-column-in-sharepoint/</guid>
+      <description>To update a url column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Environment Variables</title>
+      <link>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</link>
+      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</guid>
+      <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value?</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -18,5 +18,25 @@
       
     </item>
     
+    <item>
+      <title>SharePoint REST API</title>
+      <link>https://www.realwillwright.com/series/sharepoint-rest-api/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/series/sharepoint-rest-api/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.realwillwright.com/series/blog/</link>
+      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/series/blog/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
