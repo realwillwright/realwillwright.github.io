@@ -7,34 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Will Wright</copyright>
-    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
-      <link>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</link>
+      <link>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</guid>
+      <guid>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</guid>
       <description>To get the sspListId the following url will display it https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_api/web/lists/getbytitle(&#39;&amp;lt;list&amp;gt;&#39;)/fields?$filter=InternalName eq &#39;&amp;lt;internalMetadataColumnName&amp;gt;&#39;
 To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/featured.png" />
+      
     </item>
     
     <item>
       <title>Sending an HTTP request to SharePoint</title>
-      <link>https://www.realwillwright.com/docs/power-platform/send-http-request-to-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/send-http-request-to-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/send-http-request-to-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/send-http-request-to-sharepoint/</guid>
       <description>This is my guide for patching SharePoint items using the SharePoint REST API. All code can be copied and pasted into the body. Method, Uri and Headers will need to be different depending on whether you&amp;rsquo;re creating or updating an item.</description>
       
     </item>
     
     <item>
       <title>Update Choice Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-choice-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-choice-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-choice-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-choice-column-in-sharepoint/</guid>
       <description>To update a choice column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
       
@@ -42,10 +42,10 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
     
     <item>
       <title>Update Date Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-date-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-date-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-date-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-date-column-in-sharepoint/</guid>
       <description>To update a date column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
       
@@ -53,60 +53,60 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
     
     <item>
       <title>Update Lookup Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-lookup-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-lookup-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-lookup-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-lookup-column-in-sharepoint/</guid>
       <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update Managed Metadata Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-managed-metadata-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-managed-metadata-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-managed-metadata-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-managed-metadata-column-in-sharepoint/</guid>
       <description>To update a managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update Multi Choice Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-multi-choice-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-multi-choice-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-choice-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-multi-choice-column-in-sharepoint/</guid>
       <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update Multi Lookup Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-multi-lookup-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-multi-lookup-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-lookup-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-multi-lookup-column-in-sharepoint/</guid>
       <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update Multiple Managed Metadata Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-multi-managed-metadata-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-multi-managed-metadata-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-managed-metadata-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-multi-managed-metadata-column-in-sharepoint/</guid>
       <description>To update a multi managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update Multiple Person Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-multi-person-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-multi-person-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-multi-person-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-multi-person-column-in-sharepoint/</guid>
       <description>To update a person column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
       
@@ -114,10 +114,10 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
     
     <item>
       <title>Update Person Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-person-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-person-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-person-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-person-column-in-sharepoint/</guid>
       <description>To update a person column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
       
@@ -125,20 +125,20 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
     
     <item>
       <title>Update Single Line of Text Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-single-line-of-text-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-single-line-of-text-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-single-line-of-text-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-single-line-of-text-column-in-sharepoint/</guid>
       <description>To update a single line of text column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</description>
       
     </item>
     
     <item>
       <title>Update URL Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-url-column-in-sharepoint/</link>
+      <link>https://www.realwillwright.com/posts/update-url-column-in-sharepoint/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-url-column-in-sharepoint/</guid>
+      <guid>https://www.realwillwright.com/posts/update-url-column-in-sharepoint/</guid>
       <description>To update a url column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
       
@@ -146,269 +146,22 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
     
     <item>
       <title>Update Environment Variables</title>
-      <link>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</link>
+      <link>https://www.realwillwright.com/posts/update-environment-variables/</link>
       <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/power-platform/update-environment-variables/</guid>
+      <guid>https://www.realwillwright.com/posts/update-environment-variables/</guid>
       <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value?</description>
       
     </item>
     
     <item>
-      <title>Multiple Authors</title>
-      <link>https://www.realwillwright.com/samples/multiple-authors/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      <title>Timeline</title>
+      <link>https://www.realwillwright.com/visuals/collection-timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/samples/multiple-authors/</guid>
-      <description>A quick example of how multiple authors could be used.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/multiple-authors/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Thumbnails</title>
-      <link>https://www.realwillwright.com/samples/thumbnail_sample/</link>
-      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.realwillwright.com/visuals/collection-timeline/</guid>
+      <description>Matcha 2019 OCTMYOU MatchaOrdered in-stock from JunkySpotYuna 2019 DECFairyland PukiFee RosannaOrdered in-stock from Denver Doll EmporiumWinry Lin 2020 MAYIplhouse AriaOrdered directly from Iplehouse Wait time: 4 MonthsLoxley Greene 2020 SEPIplhouse DeanOrdered directly from Iplehouse Wait time: 3 MonthsSeren Huang 2020 NOVIplhouse YuiOrdered directly from Iplehouse Wait time: 2 Months</description>
       
-      <guid>https://www.realwillwright.com/samples/thumbnail_sample/</guid>
-      <description>A quick example of how to start using Thumbnails in your artciles.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/thumbnail_sample/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Welcome to Blowfish</title>
-      <link>https://www.realwillwright.com/docs/welcome/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/welcome/</guid>
-      <description>Blowfish is packed with tons of features.The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/welcome/featured.png" />
-    </item>
-    
-    <item>
-      <title>Installation</title>
-      <link>https://www.realwillwright.com/docs/installation/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/installation/</guid>
-      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
-Detailed installation instructions can be found below. Instructions for updating the theme are also available.
-Installation # These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/installation/featured.png" />
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://www.realwillwright.com/docs/getting-started/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/getting-started/</guid>
-      <description>This section assumes you have already installed the Blowfish theme.The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/getting-started/featured.png" />
-    </item>
-    
-    <item>
-      <title>Configuration</title>
-      <link>https://www.realwillwright.com/docs/configuration/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/configuration/</guid>
-      <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.
-The theme ships with a default configuration that gets you up and running with a basic blog or static website.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/configuration/featured.png" />
-    </item>
-    
-    <item>
-      <title>Icons</title>
-      <link>https://www.realwillwright.com/samples/icons/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/icons/</guid>
-      <description>Blowfish has built-in support for a number of FontAwesome 6 icons. These can be included in your website through either the icon partial or icon shortcode.
-Additionally, custom icons are also fully supported.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/icons/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Homepage Layout</title>
-      <link>https://www.realwillwright.com/docs/homepage-layout/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/homepage-layout/</guid>
-      <description>Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/homepage-layout/featured.png" />
-    </item>
-    
-    <item>
-      <title>Front Matter</title>
-      <link>https://www.realwillwright.com/docs/front-matter/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/front-matter/</guid>
-      <description>In addition to the default Hugo front matter parameters, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/front-matter/featured.png" />
-    </item>
-    
-    <item>
-      <title>Thumbnails</title>
-      <link>https://www.realwillwright.com/docs/thumbnails/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/thumbnails/</guid>
-      <description>Thumbnails # Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported but we recommend .</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/thumbnails/featured.png" />
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://www.realwillwright.com/docs/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/shortcodes/</guid>
-      <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
-Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/shortcodes/featured.png" />
-    </item>
-    
-    <item>
-      <title>Multiple Authors</title>
-      <link>https://www.realwillwright.com/docs/multi-author/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/multi-author/</guid>
-      <description>Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/multi-author/featured.png" />
-    </item>
-    
-    <item>
-      <title>Partials</title>
-      <link>https://www.realwillwright.com/docs/partials/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/partials/</guid>
-      <description>Analytics # Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
-Fathom Analytics # To enable Fathom Analytics support, simply provide your Fathom site code in the config/_default/params.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/partials/featured.png" />
-    </item>
-    
-    <item>
-      <title>Content Examples</title>
-      <link>https://www.realwillwright.com/docs/content-examples/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/content-examples/</guid>
-      <description>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/content-examples/featured.png" />
-    </item>
-    
-    <item>
-      <title>Series</title>
-      <link>https://www.realwillwright.com/docs/series/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/series/</guid>
-      <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/series/featured.png" />
-    </item>
-    
-    <item>
-      <title>Advanced Customisation</title>
-      <link>https://www.realwillwright.com/docs/advanced-customisation/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/advanced-customisation/</guid>
-      <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/advanced-customisation/featured.png" />
-    </item>
-    
-    <item>
-      <title>Hosting &amp; Deployment</title>
-      <link>https://www.realwillwright.com/docs/hosting-deployment/</link>
-      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/hosting-deployment/</guid>
-      <description>There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
-Blowfish is built using relative URLs throughout the theme.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/hosting-deployment/featured.png" />
-    </item>
-    
-    <item>
-      <title>Firebase: Views &amp; Likes</title>
-      <link>https://www.realwillwright.com/docs/firebase-views/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/docs/firebase-views/</guid>
-      <description>In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/firebase-views/featured.png" />
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://www.realwillwright.com/samples/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Blowfish, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/markdown/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://www.realwillwright.com/samples/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/rich-content/</guid>
-      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/rich-content/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://www.realwillwright.com/samples/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Mathematical notation</title>
-      <link>https://www.realwillwright.com/samples/mathematical-notation/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/mathematical-notation/</guid>
-      <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/mathematical-notation/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Charts</title>
-      <link>https://www.realwillwright.com/samples/charts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/charts/</guid>
-      <description>Blowfish includes Chart.js for powerful charts and data visualisations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/charts/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Diagrams and Flowcharts</title>
-      <link>https://www.realwillwright.com/samples/diagrams-flowcharts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/diagrams-flowcharts/</guid>
-      <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/diagrams-flowcharts/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Emoji :parachute:</title>
-      <link>https://www.realwillwright.com/samples/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/samples/emoji/</guid>
-      <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/samples/emoji/featured.jpg" />
     </item>
     
   </channel>

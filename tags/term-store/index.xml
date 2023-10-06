@@ -10,13 +10,13 @@
     <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/term-store/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
-      <link>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</link>
+      <link>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/</guid>
+      <guid>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</guid>
       <description>To get the sspListId the following url will display it https://&amp;lt;tenant&amp;gt;.sharepoint.com/sites/&amp;lt;site&amp;gt;/_api/web/lists/getbytitle(&#39;&amp;lt;list&amp;gt;&#39;)/fields?$filter=InternalName eq &#39;&amp;lt;internalMetadataColumnName&amp;gt;&#39;
 To get the termSetList Id go to the TermStore Admin Centre There are 2 option to get there</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.realwillwright.com/docs/sharepoint/get-ssplist-and-termsetlist/featured.png" />
+      
     </item>
     
   </channel>
