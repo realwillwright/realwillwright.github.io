@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Blowfish</title>
+    <link>https://www.realwillwright.com/tags/event/</link>
+    <description>Recent content in Event on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2023 Will Wright</copyright>
+    <lastBuildDate>Tue, 18 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event 2 - events</title>
+      <link>https://www.realwillwright.com/events/event2/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/events/event2/</guid>
+      <description>Abstract # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla. Ac felis donec et odio pellentesque.</description>
+      
+    </item>
+    
+    <item>
+      <title>Event 1 - events</title>
+      <link>https://www.realwillwright.com/events/event1/</link>
+      <pubDate>Mon, 18 Jan 2021 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/events/event1/</guid>
+      <description>Abstract # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla. Ac felis donec et odio pellentesque.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

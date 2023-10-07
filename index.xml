@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Will Wright</copyright>
-    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 01:55:47 +0700</lastBuildDate><atom:link href="https://www.realwillwright.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
       <link>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</link>
@@ -151,6 +151,26 @@ In any of the examples below anything in between &amp;lt;&amp;gt; will need to b
       
       <guid>https://www.realwillwright.com/posts/update-environment-variables/</guid>
       <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value?</description>
+      
+    </item>
+    
+    <item>
+      <title>Event 2 - events</title>
+      <link>https://www.realwillwright.com/events/event2/</link>
+      <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/events/event2/</guid>
+      <description>Abstract # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla. Ac felis donec et odio pellentesque.</description>
+      
+    </item>
+    
+    <item>
+      <title>Event 1 - events</title>
+      <link>https://www.realwillwright.com/events/event1/</link>
+      <pubDate>Mon, 18 Jan 2021 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/events/event1/</guid>
+      <description>Abstract # Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id ornare arcu odio ut sem nulla. Ac felis donec et odio pellentesque.</description>
       
     </item>
     
