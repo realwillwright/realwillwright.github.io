@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blowfish</title>
-    <link>https://www.realwillwright.com/posts/</link>
-    <description>Recent content in Posts on Blowfish</description>
+    <title>SharePoint on Blowfish</title>
+    <link>https://www.realwillwright.com/tags/sharepoint/</link>
+    <description>Recent content in SharePoint on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Will Wright</copyright>
-    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="https://www.realwillwright.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/sharepoint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get the SSPList Id and termSetItem Id</title>
       <link>https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/</link>
@@ -37,16 +37,6 @@ To get the termSetList Id go to the TermStore Admin Centre There are 2 option to
       <guid>https://www.realwillwright.com/posts/update-columns-in-sharepoint_using-rest/</guid>
       <description>To update a columns within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
-      
-    </item>
-    
-    <item>
-      <title>Update Environment Variables</title>
-      <link>https://www.realwillwright.com/posts/update-environment-variables/</link>
-      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
-      
-      <guid>https://www.realwillwright.com/posts/update-environment-variables/</guid>
-      <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value?</description>
       
     </item>
     

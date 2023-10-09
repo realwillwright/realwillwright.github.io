@@ -30,13 +30,23 @@ To get the termSetList Id go to the TermStore Admin Centre There are 2 option to
     </item>
     
     <item>
-      <title>Update Choice Column in SharePoint using REST API</title>
-      <link>https://www.realwillwright.com/posts/update-choice-column-in-sharepoint/</link>
+      <title>Update Columns in SharePoint using REST API</title>
+      <link>https://www.realwillwright.com/posts/update-columns-in-sharepoint_using-rest/</link>
       <pubDate>Tue, 18 Jan 2022 12:54:13 +0000</pubDate>
       
-      <guid>https://www.realwillwright.com/posts/update-choice-column-in-sharepoint/</guid>
-      <description>To update a choice column within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
+      <guid>https://www.realwillwright.com/posts/update-columns-in-sharepoint_using-rest/</guid>
+      <description>To update a columns within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.
 In any of the examples below anything in between &amp;lt;&amp;gt; will need to be updated with actual values</description>
+      
+    </item>
+    
+    <item>
+      <title>Update Environment Variables</title>
+      <link>https://www.realwillwright.com/posts/update-environment-variables/</link>
+      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/posts/update-environment-variables/</guid>
+      <description>We all know the scenario, a managed solution has been imported but one of the variables has been set incorrectly. How do I go and update this to the correct value?</description>
       
     </item>
     
