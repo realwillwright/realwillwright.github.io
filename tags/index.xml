@@ -6,8 +6,18 @@
     <description>Recent content in Tags on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023 Will Wright</copyright>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Thu, 25 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Fx</title>
+      <link>https://www.realwillwright.com/tags/power-fx/</link>
+      <pubDate>Thu, 25 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/power-fx/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Event</title>
       <link>https://www.realwillwright.com/tags/event/</link>
@@ -29,7 +39,7 @@
     </item>
     
     <item>
-      <title>Managed metadata</title>
+      <title>Managed Metadata</title>
       <link>https://www.realwillwright.com/tags/managed-metadata/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       
@@ -39,7 +49,7 @@
     </item>
     
     <item>
-      <title>Term store</title>
+      <title>Term Store</title>
       <link>https://www.realwillwright.com/tags/term-store/</link>
       <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
       

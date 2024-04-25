@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.cfe898811388ac0a0ad7c7db8afe116d7e5f27d45632395fe4a856752dca2403be5b1e7e57d745aee16bd5ca11edfd46a629c3a17c92a8e92e0bf9905954d8e1.css"
-    integrity="sha512-z&#43;iYgROIrAoK18fbiv4RbX5fJ9RWMjlf5KhWdS3KJAO&#43;Wx5&#43;V9dFruFr1coR7f1GpinDoXySqOkuC/mQWVTY4Q==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.4e878ccd6ce4843dd291de37560ef9da646e9d507e3700ff4864b771a8931549a275667df4310fe91d86af20bcf91368ea60743130417ee7d17f18bbf355526d.css"
+    integrity="sha512-ToeMzWzkhD3Skd43Vg752mRunVB&#43;NwD/SGS3caiTFUmidWZ99DEP6R2GryC8&#43;RNo6mB0MTBBfufRfxi781VSbQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -46,10 +46,12 @@
   
   
   
-  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.34dfb4e6b05b47b0a3599f50035f9bbb18c2d36a26aa4c0ea7acc4936489d4c2a55f65683d53e3c4215337e6a8c02e554881af2da86b5783c96837ae3d4e98f6.js"
-    integrity="sha512-NN&#43;05rBbR7CjWZ9QA1&#43;buxjC02omqkwOp6zEk2SJ1MKlX2VoPVPjxCFTN&#43;aowC5VSIGvLahrV4PJaDeuPU6Y9g==" data-copy="" data-copied=""></script>
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.613a6e4377a0537a2b458bc886a92b1a4732de69d81772d030141b1e24c665c9c87a6459c5c10b02e0c69d4d1c4f9a69fd99dc3666fe6aa7d81ae2fff516bea7.js"
+    integrity="sha512-YTpuQ3egU3orRYvIhqkrGkcy3mnYF3LQMBQbHiTGZcnIemRZxcELAuDGnU0cT5pp/ZncNmb&#43;aqfYGuL/9Ra&#43;pw==" data-copy="" data-copied=""></script>
+  
   
   <script src="/js/zoom.min.js"></script>
+  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -63,18 +65,21 @@
   
   
   
-  <meta property="og:title" content="Update Columns in SharePoint using REST API" />
-<meta property="og:description" content="How to update SharePoint fields using the SharePoint HTTP request action in Power Automate" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.realwillwright.com/posts/update-columns-in-sharepoint_using-rest/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-01-18T12:54:13+00:00" />
-<meta property="article:modified_time" content="2022-01-18T12:54:13+00:00" />
-<meta property="og:see_also" content="https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/" /><meta property="og:see_also" content="https://www.realwillwright.com/posts/send-http-request-to-sharepoint/" />
+  <meta property="og:url" content="https://www.realwillwright.com/posts/update-columns-in-sharepoint_using-rest/">
+  <meta property="og:site_name" content="Blowfish">
+  <meta property="og:title" content="Update Columns in SharePoint using REST API">
+  <meta property="og:description" content="How to update SharePoint fields using the SharePoint HTTP request action in Power Automate">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-01-18T12:54:13+00:00">
+    <meta property="article:modified_time" content="2022-01-18T12:54:13+00:00">
+    <meta property="article:tag" content="Flow">
+      <meta property="og:see_also" content="https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/">
+      <meta property="og:see_also" content="https://www.realwillwright.com/posts/send-http-request-to-sharepoint/">
 
-
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Update Columns in SharePoint using REST API"/>
-<meta name="twitter:description" content="How to update SharePoint fields using the SharePoint HTTP request action in Power Automate"/>
+  <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Update Columns in SharePoint using REST API">
+<meta name="twitter:description" content="How to update SharePoint fields using the SharePoint HTTP request action in Power Automate">
 
   
   <script type="application/ld+json">
@@ -146,6 +151,9 @@
 
 
 
+
+
+
   
   
 
@@ -157,6 +165,7 @@
 
   gtag('config', 'G-W9JJCFHP71');
 </script>
+
 
   
   
@@ -195,8 +204,9 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
+            
             <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Blowfish</a>
-
+            
 
         </nav>
         <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
@@ -204,9 +214,9 @@
             
             
             
-  <a href="/posts/"  class="flex items-center">
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Posts">
+    <p class="text-base font-medium" title="">
         Posts
     </p>
 </a>
@@ -214,9 +224,9 @@
 
             
             
-  <a href="/series/"  class="flex items-center">
+  <a href="/series/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="Series">
+    <p class="text-base font-medium" title="">
         Series
     </p>
 </a>
@@ -224,9 +234,9 @@
 
             
             
-  <a href="/examples/"  class="flex items-center">
+  <a href="/examples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="External Posts">
+    <p class="text-base font-medium" title="">
         External Posts
     </p>
 </a>
@@ -234,7 +244,7 @@
 
             
             
-  <a href="/visuals/timeline"  class="flex items-center">
+  <a href="/visuals/timeline"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span  class="mr-1" >
         
@@ -242,7 +252,7 @@
 
     </span>
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         Timeline
     </p>
 </a>
@@ -250,7 +260,7 @@
 
             
             
-  <a href="https://twitter.com/realwillwright"  target="_blank"  class="flex items-center">
+  <a href="https://twitter.com/realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -265,7 +275,7 @@
 
     </span>
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         
     </p>
 </a>
@@ -273,7 +283,7 @@
 
             
             
-  <a href="https://www.linkedin.com/in/william-john-wright/"  target="_blank"  class="flex items-center">
+  <a href="https://www.linkedin.com/in/william-john-wright/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -286,7 +296,7 @@
 
     </span>
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         
     </p>
 </a>
@@ -294,7 +304,7 @@
 
             
             
-  <a href="https://github.com/realwillwright"  target="_blank"  class="flex items-center">
+  <a href="https://github.com/realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -307,7 +317,7 @@
 
     </span>
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         
     </p>
 </a>
@@ -315,7 +325,7 @@
 
             
             
-  <a href="https://www.threads.net/@realwillwright"  target="_blank"  class="flex items-center">
+  <a href="https://www.threads.net/@realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <span >
         
@@ -346,7 +356,7 @@
 
     </span>
     
-    <p class="text-base font-medium text-gray-500 hover:text-gray-900" title="">
+    <p class="text-base font-medium" title="">
         
     </p>
 </a>
@@ -359,7 +369,7 @@
 
 
             
-            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400 h-12"
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
                 title="">
                 
 
@@ -376,9 +386,9 @@
             
             
             <div
-                class="ltr:mr-14 rtl:ml-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400">
-                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button">
-                    <div class="flex items-center justify-center h-12 dark:hidden">
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
                         
 
   <span class="relative block icon">
@@ -388,7 +398,7 @@
 
 
                     </div>
-                    <div class="items-center justify-center hidden h-12 dark:flex">
+                    <div class="items-center justify-center hidden dark:flex">
                         
 
   <span class="relative block icon">
@@ -403,7 +413,7 @@
             
 
         </nav>
-        <div class="flex md:hidden items-center space-x-5 md:ml-12">
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
 
             <span></span>
 
@@ -426,8 +436,8 @@
 
             
             
-            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" style="margin-right:5px">
-                <div class="flex items-center justify-center h-12 dark:hidden">
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
                     
 
   <span class="relative block icon">
@@ -437,7 +447,7 @@
 
 
                 </div>
-                <div class="items-center justify-center hidden h-12 dark:flex">
+                <div class="items-center justify-center hidden dark:flex">
                     
 
   <span class="relative block icon">
@@ -456,6 +466,7 @@
 
         <label id="menu-button" for="menu-controller" class="block">
             <input type="checkbox" id="menu-controller" class="hidden" />
+            
             <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
                 
 
@@ -484,13 +495,12 @@
                     </li>
 
                     
-                    
 
                     
   <li class="mt-1">
-    <a href="/posts/"  class="flex items-center">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Posts">
+        <p class="text-bg font-bg" title="">
             Posts
         </p>
     </a>
@@ -502,9 +512,9 @@
 
                     
   <li class="mt-1">
-    <a href="/series/"  class="flex items-center">
+    <a href="/series/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="Series">
+        <p class="text-bg font-bg" title="">
             Series
         </p>
     </a>
@@ -516,9 +526,9 @@
 
                     
   <li class="mt-1">
-    <a href="/examples/"  class="flex items-center">
+    <a href="/examples/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="External Posts">
+        <p class="text-bg font-bg" title="">
             External Posts
         </p>
     </a>
@@ -530,7 +540,7 @@
 
                     
   <li class="mt-1">
-    <a href="/visuals/timeline"  class="flex items-center">
+    <a href="/visuals/timeline"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div  class="mr-2" >
             
@@ -538,7 +548,7 @@
 
         </div>
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             Timeline
         </p>
     </a>
@@ -550,7 +560,7 @@
 
                     
   <li class="mt-1">
-    <a href="https://twitter.com/realwillwright"  target="_blank"  class="flex items-center">
+    <a href="https://twitter.com/realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -565,7 +575,7 @@
 
         </div>
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             
         </p>
     </a>
@@ -577,7 +587,7 @@
 
                     
   <li class="mt-1">
-    <a href="https://www.linkedin.com/in/william-john-wright/"  target="_blank"  class="flex items-center">
+    <a href="https://www.linkedin.com/in/william-john-wright/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -590,7 +600,7 @@
 
         </div>
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             
         </p>
     </a>
@@ -602,7 +612,7 @@
 
                     
   <li class="mt-1">
-    <a href="https://github.com/realwillwright"  target="_blank"  class="flex items-center">
+    <a href="https://github.com/realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -615,7 +625,7 @@
 
         </div>
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             
         </p>
     </a>
@@ -627,7 +637,7 @@
 
                     
   <li class="mt-1">
-    <a href="https://www.threads.net/@realwillwright"  target="_blank"  class="flex items-center">
+    <a href="https://www.threads.net/@realwillwright"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <div >
             
@@ -658,7 +668,7 @@
 
         </div>
         
-        <p class="text-bg font-bg text-gray-500 hover:text-gray-900" title="">
+        <p class="text-bg font-bg" title="">
             
         </p>
     </a>
@@ -667,9 +677,9 @@
 
 
                     
-                    
 
                 </ul>
+                
                 
 
             </div>
@@ -714,9 +724,16 @@
   
   
   
+ 
+  
+   
+  
+ 
+
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
+
 
 
     
@@ -793,6 +810,8 @@
 
 
 
+  
+  
 
 
 
@@ -806,19 +825,19 @@
 
 
 
+  
 
 
 
+  
 
 
 
+  
 
 
 
-
-
-
-
+  
 
 
 
@@ -830,10 +849,20 @@
   
   
   <span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="views_posts\update-columns-in-sharepoint_using-rest\index.md" title="views">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\update-columns-in-sharepoint_using-rest\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -842,10 +871,22 @@
 
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="likes_posts\update-columns-in-sharepoint_using-rest\index.md" title="likes">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_posts\update-columns-in-sharepoint_using-rest\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -854,10 +895,10 @@
 
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
-    <button id="likes_button"
+    <button id="button_likes"
         class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
         onclick="process_article()">
-        <span id="likes_button_heart" style="display:none" class="inline-block align-text-bottom">
+        <span id="button_likes_heart" style="display:none" class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -865,7 +906,7 @@
   </span>
 
  </span>
-        <span id="likes_button_emtpty_heart" class="inline-block align-text-bottom">
+        <span id="button_likes_emtpty_heart" class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -873,7 +914,7 @@
   </span>
 
 </span>
-        <span id="likes_button_text">&nbsp;Like</span>
+        <span id="button_likes_text">&nbsp;Like</span>
     </button>
 </span>
   
@@ -912,25 +953,19 @@
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/power-automate/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Power Automate
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/sharepoint/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     SharePoint
   </span>
 </span>
-
   </span>
   
   
@@ -942,14 +977,11 @@
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/flow/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Flow
   </span>
 </span>
-
   </span>
   
   
@@ -970,16 +1002,19 @@
     
     
     
-<div class="flex">
+<div class="flex author">
   
-  
-  
-  
-  
-  
-  <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-    alt="Will Wright" src="/img/will_huf6273ec552e9245ffb08548e2dda16c3_654134_192x192_fill_box_center_3.png" />
-  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Will Wright" src="/img/will_huf6273ec552e9245ffb08548e2dda16c3_654134_192x192_fill_box_center_3.png" />
+    
   
   <div class="place-self-center">
     
@@ -1093,10 +1128,9 @@
 </div>
   </div>
 </div>
-    
 
     
-    
+
     
 
     
@@ -1114,7 +1148,7 @@
       class="order-first sm:max-w-prose lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
 
-         <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
@@ -1138,7 +1172,7 @@
 </nav>
   </div>
 </details>
-<details class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
   <summary
     class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
@@ -1217,31 +1251,6 @@
     
     
     
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/">
-            Part : Get the SSPList Id and termSetItem Id
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="https://www.realwillwright.com/posts/send-http-request-to-sharepoint/">
-            Part 1: Sending an HTTP request to SharePoint
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 2: This Article
-    </div>
-    
-    
 
 </details>
 
@@ -1251,12 +1260,16 @@
           <p>To update a columns within a SharePoint list using the SharePoint REST API action in Flow. Add the following code to the Body of the action.</p>
 <p>In any of the examples below anything in between <code>&lt;&gt;</code> will need to be updated with actual values</p>
 <p>To get the value for the <code>__metadata type</code> use the following url <code>_api/web/lists/GetByTitle('&lt;list&gt;')</code></p>
-<div id="updating-a-choice-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Choice column 
+    <div id="updating-a-choice-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-choice-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-choice-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1265,12 +1278,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Choice&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Choice #1&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
-</span></span></span></code></pre></div><div id="updating-a-multi-choice-column" class="anchor"></div>
+</span></span></span></code></pre></div>
+
 <h2 class="relative group">Updating a Multi-Choice column 
+    <div id="updating-a-multi-choice-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-multi-choice-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-multi-choice-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1280,12 +1297,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;multiChoice&#39;</span><span class="p">:</span><span class="w"> </span>{<span class="w"> </span><span class="nt">&#39;results&#39;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;Choice #1&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Choice #2&#39;</span><span class="p">]</span>}<span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
 </span></span></span></code></pre></div><p>The format for multiple entries must be <code>['Choice #1', 'Choice #2']</code>. If you need to blank or leave empty use <code>''</code> in place of the choice.</p>
-<div id="updating-a-date-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Date column 
+    <div id="updating-a-date-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-date-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-date-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1295,12 +1316,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Date&#39;</span><span class="p">:</span><span class="w"> </span><span class="l">`utcNow()`</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
 </span></span></span></code></pre></div><p>The date must be in a valid format to be accepted by SharePoint</p>
-<div id="updating-a-lookup-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Lookup column 
+    <div id="updating-a-lookup-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-lookup-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-lookup-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1309,12 +1334,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Title&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;text&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
-</span></span></span></code></pre></div><div id="updating-a-multi-lookup-column" class="anchor"></div>
+</span></span></span></code></pre></div>
+
 <h2 class="relative group">Updating a Multi-Lookup column 
+    <div id="updating-a-multi-lookup-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-multi-lookup-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-multi-lookup-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1323,12 +1352,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Title&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;single line of text&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
-</span></span></span></code></pre></div><div id="updating-a-url-column" class="anchor"></div>
+</span></span></span></code></pre></div>
+
 <h2 class="relative group">Updating a URL column 
+    <div id="updating-a-url-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-url-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-url-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1340,12 +1373,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Description&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;What you want the link to say&#39;</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Url&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;Link to the item/site&#39;</span>}<span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
-</span></span></span></code></pre></div><div id="updating-a-single-line-of-text-column" class="anchor"></div>
+</span></span></span></code></pre></div>
+
 <h2 class="relative group">Updating a Single Line of Text column 
+    <div id="updating-a-single-line-of-text-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-single-line-of-text-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-single-line-of-text-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1354,12 +1391,16 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">&#39;Title&#39;</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;single line of text&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span>}<span class="w">
-</span></span></span></code></pre></div><div id="updating-a-person-column" class="anchor"></div>
+</span></span></span></code></pre></div>
+
 <h2 class="relative group">Updating a Person column 
+    <div id="updating-a-person-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-person-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-person-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1371,12 +1412,16 @@
 </span></span></span></code></pre></div><p><strong>Note &lsquo;Id&rsquo; is added to the internal name of the SharePoint column.</strong></p>
 <p>The number required is the SharePoint Id of the person or group. To get this Id you can use the action <code>Get items</code> and use the hidden SharePoint list <code>User Information List</code>. Use the oData filter and filter on <code>Email</code> using the persons email address.
 To avoid an <code>Apply to each</code> action use the formula <code>first(body('Get_author_information')?['value'])?['Id']</code>. If you need to blank or leave empty use <code>-1</code> in place of the Id.</p>
-<div id="updating-a-multi-person-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Multi-Person column 
+    <div id="updating-a-multi-person-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-multi-person-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-multi-person-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">{<span class="w">
@@ -1388,12 +1433,16 @@ To avoid an <code>Apply to each</code> action use the formula <code>first(body('
 </span></span></span></code></pre></div><p><strong>Note &lsquo;Id&rsquo; is added to the internal name of the SharePoint column.</strong></p>
 <p>The number required is the SharePoint Id of the person or group. To get this Id you can use the action <code>Get items</code> and use the hidden SharePoint list <code>User Information List</code>. Use the oData filter and filter on <code>Email</code> using the person email address.
 The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to blank or leave empty use <code>0</code> in place of the Id.</p>
-<div id="updating-a-managed-metadata-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Managed Metadata column 
+    <div id="updating-a-managed-metadata-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-managed-metadata-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-managed-metadata-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>To update a managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</p>
@@ -1447,6 +1496,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
       
       <img
         class="my-0 rounded-md"
+        loading="lazy"
         srcset="
         /posts/update-columns-in-sharepoint_using-rest/images/termSetList_huca34ffc31f43d4120883450a3777b6a6_111200_330x0_resize_box_3.png 330w,
         /posts/update-columns-in-sharepoint_using-rest/images/termSetList_huca34ffc31f43d4120883450a3777b6a6_111200_660x0_resize_box_3.png 660w,
@@ -1464,12 +1514,16 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 </tr>
 </thead>
 </table>
-<div id="updating-a-multi-managed-metadata-column" class="anchor"></div>
+
+
 <h2 class="relative group">Updating a Multi-Managed Metadata column 
+    <div id="updating-a-multi-managed-metadata-column" class="anchor"></div>
+    
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#updating-a-multi-managed-metadata-column" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#updating-a-multi-managed-metadata-column" aria-label="Anchor">#</a>
+    </span>        
     
 </h2>
 <p>To update a multi managed metatdata column within a SharePoint list using the SharePoint REST API action in Flow. Add the following to the sections Method, Uri, Header and Body of the action.</p>
@@ -1527,6 +1581,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
       
       <img
         class="my-0 rounded-md"
+        loading="lazy"
         srcset="
         /posts/update-columns-in-sharepoint_using-rest/images/termSetList_huca34ffc31f43d4120883450a3777b6a6_111200_330x0_resize_box_3.png 330w,
         /posts/update-columns-in-sharepoint_using-rest/images/termSetList_huca34ffc31f43d4120883450a3777b6a6_111200_660x0_resize_box_3.png 660w,
@@ -1554,31 +1609,6 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
         SharePoint REST API - This article is part of a series.
     </summary>
     
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="https://www.realwillwright.com/posts/get-ssplist-and-termsetlist/">
-            Part : Get the SSPList Id and termSetItem Id
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        <a href="https://www.realwillwright.com/posts/send-http-request-to-sharepoint/">
-            Part 1: Sending an HTTP request to SharePoint
-        </a>
-    </div>
-    
-    
-    
-    <div
-        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
-        Part 2: This Article
-    </div>
     
     
 
@@ -1619,8 +1649,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
       
 
   <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
   </span>
 
 
@@ -1729,7 +1758,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
   <a href="/posts/send-http-request-to-sharepoint/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
         <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/ocean_hu3d03a01dcc18bc5be0e67db3d8d209a6_5097493_600x0_resize_q75_box.jpg);"></div>
         
@@ -1761,13 +1790,15 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
 
 
+  
 
 
 
+  
 
 
 
-
+  
 
 
 
@@ -1781,10 +1812,20 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="views_posts\send-http-request-to-sharepoint\index.md" title="views">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\send-http-request-to-sharepoint\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -1793,10 +1834,22 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="likes_posts\send-http-request-to-sharepoint\index.md" title="likes">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_posts\send-http-request-to-sharepoint\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1841,25 +1894,19 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/power-automate/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Power Automate
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/sharepoint/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     SharePoint
   </span>
 </span>
-
   </span>
   
   
@@ -1871,14 +1918,11 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/flow/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Flow
   </span>
 </span>
-
   </span>
   
   
@@ -1902,7 +1946,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
   <a href="/posts/update-environment-variables/" class="min-w-full">
     
-    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
         <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/ocean_hu3d03a01dcc18bc5be0e67db3d8d209a6_5097493_600x0_resize_q75_box.jpg);"></div>
         
@@ -1934,13 +1978,15 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
 
 
+  
 
 
 
+  
 
 
 
-
+  
 
 
 
@@ -1954,10 +2000,20 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="views_posts\update-environment-variables\index.md" title="views">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_posts\update-environment-variables\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -1966,10 +2022,22 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
 </span>
 </span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
     
-    <span id="likes_posts\update-environment-variables\index.md" title="likes">0</span> 
     
-    <span class="inline-block align-text-bottom">
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_posts\update-environment-variables\index.md"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -2014,36 +2082,27 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/power-automate/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Power Automate
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/dataverse/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Dataverse
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/canvas-apps/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Canvas Apps
   </span>
 </span>
-
   </span>
   
   
@@ -2055,25 +2114,19 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/environment-variables/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Environment Variables
   </span>
 </span>
-
   </span>
   
   <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/flow/&#34;,'_self');">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Flow
   </span>
 </span>
-
   </span>
   
   
@@ -2104,7 +2157,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
       </script>
       
       
-      <script type="text/javascript" src="/js/page.min.0e49973b4ad0a382c7c6012d8bff8226316642daabc4f8a20477bd08674f3da6e2fa993bc20ad4f51e7c5bb68e6f913a207a7c4fe37ea0e7b806894afce0a64e.js" integrity="sha512-DkmXO0rQo4LHxgEti/&#43;CJjFmQtqrxPiiBHe9CGdPPabi&#43;pk7wgrU9R58W7aOb5E6IHp8T&#43;N&#43;oOe4BolK/OCmTg=="></script>
+      <script type="text/javascript" src="/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
   
     </section>
   <footer class="pt-8 max-w-prose print:hidden">
@@ -2177,7 +2230,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 
       <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
   <a href="#the-top"
-    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
     aria-label="Scroll to top" title="Scroll to top">
     &uarr;
   </a>
@@ -2190,18 +2243,27 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
       <ul class="flex flex-col list-none sm:flex-row">
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/tags/"
-            title="Tags">Tags</a>
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="">
+            
+            Tags
+          </a>
         </li>
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/authors/"
-            title="Authors Taxonomy Listing Example">Authors</a>
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/authors/"
+            title="">
+            
+            Authors
+          </a>
         </li>
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="https://www.realwillwright.com/index.xml"
-            title="">RSS Feed</a>
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="https://www.realwillwright.com/index.xml"
+            title="">
+            
+            RSS Feed
+          </a>
         </li>
         
       </ul>
@@ -2214,7 +2276,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
-      2023
+      2024
       Will Wright
     </p>
     
@@ -2242,7 +2304,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
   </script>
   
   
-  <script type="text/javascript" src="/js/process.min.35c1113bcc16c5a59bf031082f9e63822aa95280423881a7847a7ff33a16e6299ce6a840d9ef4e10d947e030a18f3f20359afb2ec0f35967484b9a9360ac3145.js" integrity="sha512-NcERO8wWxaWb8DEIL55jgiqpUoBCOIGnhHp/8zoW5imc5qhA2e9OENlH4DChjz8gNZr7LsDzWWdIS5qTYKwxRQ=="></script>
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
   <a rel="me" href="https://masto.ai/@blowfish"></a>
@@ -2250,7 +2312,7 @@ The format for multiple entries must be <code>[1,2,3,4]</code>. If you need to b
 </footer><div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://www.realwillwright.com"
+  data-url="https://www.realwillwright.com/"
   style="z-index:500"
 >
   <div

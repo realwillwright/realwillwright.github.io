@@ -6,8 +6,38 @@
     <description>Recent content in Categories on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023 Will Wright</copyright>
-    <lastBuildDate>Sat, 07 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Thu, 25 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Fx</title>
+      <link>https://www.realwillwright.com/categories/power-fx/</link>
+      <pubDate>Thu, 25 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/categories/power-fx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Power Platform CLI</title>
+      <link>https://www.realwillwright.com/categories/power-platform-cli/</link>
+      <pubDate>Thu, 25 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/categories/power-platform-cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VS Code</title>
+      <link>https://www.realwillwright.com/categories/vs-code/</link>
+      <pubDate>Thu, 25 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/categories/vs-code/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Conference</title>
       <link>https://www.realwillwright.com/categories/conference/</link>
