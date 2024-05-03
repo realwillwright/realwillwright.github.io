@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gallery on Blowfish</title>
+    <link>https://www.realwillwright.com/visuals/gallery/</link>
+    <description>Recent content in Gallery on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Tue, 16 May 2023 01:55:47 +0700</lastBuildDate><atom:link href="https://www.realwillwright.com/visuals/gallery/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

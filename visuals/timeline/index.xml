@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timeline on Blowfish</title>
+    <link>https://www.realwillwright.com/visuals/timeline/</link>
+    <description>Recent content in Timeline on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/visuals/timeline/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

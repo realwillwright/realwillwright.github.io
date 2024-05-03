@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Blowfish</title>
+    <link>https://www.realwillwright.com/tags/</link>
+    <description>Recent content in Tags on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Thu, 25 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Power Fx</title>
+      <link>https://www.realwillwright.com/tags/power-fx/</link>
+      <pubDate>Thu, 25 Apr 2024 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/power-fx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Event</title>
+      <link>https://www.realwillwright.com/tags/event/</link>
+      <pubDate>Sat, 07 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/event/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flow</title>
+      <link>https://www.realwillwright.com/tags/flow/</link>
+      <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/flow/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Managed Metadata</title>
+      <link>https://www.realwillwright.com/tags/managed-metadata/</link>
+      <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/managed-metadata/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Term Store</title>
+      <link>https://www.realwillwright.com/tags/term-store/</link>
+      <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/term-store/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Environment Variables</title>
+      <link>https://www.realwillwright.com/tags/environment-variables/</link>
+      <pubDate>Mon, 17 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/environment-variables/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced</title>
+      <link>https://www.realwillwright.com/tags/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/tags/advanced/</guid>
+      <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Blowfish</title>
+    <link>https://www.realwillwright.com/series/</link>
+    <description>Recent content in Series on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Sat, 22 Jan 2022 12:54:13 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SharePoint REST API</title>
+      <link>https://www.realwillwright.com/series/sharepoint-rest-api/</link>
+      <pubDate>Sat, 22 Jan 2022 12:54:13 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/series/sharepoint-rest-api/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

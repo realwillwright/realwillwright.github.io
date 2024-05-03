@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>External Posts on Blowfish</title>
+    <link>https://www.realwillwright.com/examples/</link>
+    <description>Recent content in External Posts on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Will Wright</copyright>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.realwillwright.com/examples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An External Article</title>
+      <link>https://www.realwillwright.com/examples/externalexample/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/examples/externalexample/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+      
+    </item>
+    
+    <item>
+      <title>An External Article 2</title>
+      <link>https://www.realwillwright.com/examples/externalexample-copy/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.realwillwright.com/examples/externalexample-copy/</guid>
+      <description>The &lt;code&gt;externalUrl&lt;/code&gt; front matter parameter can link to any URL.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
